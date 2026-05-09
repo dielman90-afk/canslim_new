@@ -1,5 +1,32 @@
 # CANSLIM-Bericht Verbesserungslog
 
+## Lauf 22 -- 09. Mai 2026 (Samstag)
+
+### Was gut lief
+- Erster Lauf komplett ueber Claude Code -- kein Cowork mehr noetig
+- GitHub-Push via MCP erfolgreich (kein Python-Skript, kein Token im Dateisystem)
+- Slack-DM beim ersten Versuch erfolgreich gesendet
+- MU als #1 NEU aufgenommen -- bester Tag seit Dez 2008: +15% auf $757 mit Mega-Volumen, KI-Memory-Nachfrage
+- AMD als #2 behalten -- gesunde Konsolidierung nach Q1-Beat, Cup-Handle intakt
+- VRT als #3 behalten -- leichte Konsolidierung unter ATH, Q1-Beat intakt
+- STRL als #4 behalten -- mogl. Stock-Split ~5:1, Fundamentals unveraendert stark
+- FIX und ECG ausgelassen (Preisdaten unklar / mogl. Splits -- Vorsicht)
+- Cron-Job via /etc/cron.d eingerichtet (Mo-Fr 09:10)
+- Alle alten Windows-Workarounds entfernt (push_to_github.py, .bat, .ps1)
+
+### Probleme
+- STRL-Preis $181 vs. Vorwoche $881 -- moegl. Stock-Split, Bestaetigung aussteht
+- FIX-Preis unklar ($344 vs. ATH $2.018 -- Split?) -- vorerst ausgelassen
+- Nur 4 von 5 Picks (wegen Preisdaten-Unsicherheit bei FIX/ECG)
+- STRL-Split-Info nicht bestaetigt -- naechster Lauf verifizieren
+
+### Verbesserungen fuer naechsten Lauf (11.05.)
+1. STRL-Split bestaetigen (split-bereinigter Chart pruefen)
+2. FIX und ECG Preise via WebSearch neu recherchieren
+3. 5. Pick-Slot mit MU-Konsolidierung oder neuem Kandidaten fuellen
+
+---
+
 ## Lauf 21 -- 07. Mai 2026 (Donnerstag)
 
 ### Was gut lief
