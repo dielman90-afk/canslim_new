@@ -30,7 +30,8 @@ Jeden Werktag (Mo–Fr) analysierst du den US-Aktienmarkt nach der CANSLIM-Metho
 ### 2. CANSLIM-Aktienauswahl
 - Recherchiere via WebSearch aktuelle Top-Kandidaten (Earnings-Beats, neue ATHs, Volumen-Breakouts)
 - Wähle bis zu 5 Aktien die ALLE 7 CANSLIM-Kriterien erfüllen
-- Bei Marktampel RED: Maximal 2 Picks, defensive Sektoren bevorzugen
+- **Immer genau 5 Picks** – auch wenn du stärker suchen musst
+- Bei Marktampel RED: Trotzdem 5 Picks, aber defensive Sektoren bevorzugen und RED-Signal setzen
 - Aktien mit Earnings innerhalb der nächsten 3 Wochen vermeiden (Earnings-Risiko)
 
 ### 3. JSON schreiben
@@ -66,7 +67,7 @@ Schreibe das Ergebnis in `canslim-picks.json` im Root des Repos (Datei überschr
 ### 4. Slack-Direktnachricht
 Sende eine Direktnachricht an den konfigurierten Empfänger (siehe `SLACK_USER_ID` unten).
 
-**Format (ASCII-only, ~3.000–3.500 Zeichen):**
+**Format (ASCII-only, ~3.500–4.500 Zeichen):**
 ```
 ===== CANSLIM DAILY [DATUM] =====
 Markt: [GREEN/YELLOW/RED] -- [market_note]
@@ -74,7 +75,13 @@ Markt: [GREEN/YELLOW/RED] -- [market_note]
 --- PICKS ---
 #1 TICKER -- Firmenname [$Kurs] [chart_pattern]
    Signal: [GREEN/YELLOW/RED]
-   CANSLIM: C+ A+ N+ S+ L+ I+ M+
+   C - Current Earnings  (+25% YoY): JA
+   A - Annual Earnings   (+25% p.a): JA
+   N - New (Produkt/ATH)           : JA
+   S - Supply & Demand  (Volumen+) : JA
+   L - Leader           (RS > 80)  : JA
+   I - Institutional    (Inst.+)   : JA
+   M - Market Direction (Aufwaerts): JA
    [note]
 
 #2 ...
@@ -142,6 +149,7 @@ tail -f /home/user/canslim_new/canslim_cron.log
 
 1. **ASCII-only** in allen Ausgaben – keine Umlaute (ä→ae, ö→oe, ü→ue, ß→ss)
 2. **Earnings-Filter**: Keine Aktien mit Earnings in den nächsten 3 Wochen
-3. **Maximale Picks**: 5 bei GREEN, 3 bei YELLOW, 2 bei RED
-4. **Keine Wiederholung**: Picks aus der Vorwoche nur halten wenn Chart-Muster intakt
-5. **Reihenfolge einhalten**: Markt → JSON → Slack → GitHub → Log
+3. **Immer 5 Picks**: Egal ob GREEN, YELLOW oder RED – immer genau 5 Picks liefern
+4. **CANSLIM ausschreiben**: Im Slack jeden Punkt einzeln mit vollem Namen ausschreiben (siehe Format oben)
+5. **Keine Wiederholung**: Picks aus der Vorwoche nur halten wenn Chart-Muster intakt
+6. **Reihenfolge einhalten**: Markt → JSON → Slack → GitHub → Log
