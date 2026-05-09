@@ -30,8 +30,8 @@ Jeden Werktag (Mo–Fr) analysierst du den US-Aktienmarkt nach der CANSLIM-Metho
 ### 2. CANSLIM-Aktienauswahl
 - Recherchiere via WebSearch aktuelle Top-Kandidaten (Earnings-Beats, neue ATHs, Volumen-Breakouts)
 - Wähle bis zu 5 Aktien die ALLE 7 CANSLIM-Kriterien erfüllen
-- **Immer genau 5 Picks** – auch wenn du stärker suchen musst
-- Bei Marktampel RED: Trotzdem 5 Picks, aber defensive Sektoren bevorzugen und RED-Signal setzen
+- **Immer genau 10 Picks** – auch wenn du stärker suchen musst
+- Bei Marktampel RED: Trotzdem 10 Picks, aber defensive Sektoren bevorzugen und RED-Signal setzen
 - Aktien mit Earnings innerhalb der nächsten 3 Wochen vermeiden (Earnings-Risiko)
 
 ### 3. JSON schreiben
@@ -149,7 +149,7 @@ tail -f /home/user/canslim_new/canslim_cron.log
 
 1. **ASCII-only** in allen Ausgaben – keine Umlaute (ä→ae, ö→oe, ü→ue, ß→ss)
 2. **Earnings-Filter**: Keine Aktien mit Earnings in den nächsten 3 Wochen
-3. **Immer 5 Picks**: Egal ob GREEN, YELLOW oder RED – immer genau 5 Picks liefern
+3. **Immer 10 Picks**: Egal ob GREEN, YELLOW oder RED – immer genau 10 Picks liefern
 4. **CANSLIM ausschreiben**: Im Slack jeden Punkt einzeln mit vollem Namen ausschreiben (siehe Format oben)
 5. **Keine Wiederholung**: Picks aus der Vorwoche nur halten wenn Chart-Muster intakt
 6. **Reihenfolge einhalten**: Markt → JSON → Slack → GitHub → Log
