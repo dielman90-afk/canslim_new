@@ -111,7 +111,7 @@ Füge oben in `canslim_verbesserungen.md` einen neuen Abschnitt ein:
 ## Konfiguration
 
 ```
-SLACK_USER_ID = [HIER_USER_ID_EINTRAGEN]
+SLACK_USER_ID = U0AMXQ1EA4B
 GITHUB_REPO   = dielman90-afk/canslim_new
 GITHUB_BRANCH = main
 LAUF_NUMMER   = 22
