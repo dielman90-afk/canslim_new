@@ -1,13 +1,13 @@
 {
-  "updated": "2026-05-07",
+  "updated": "2026-05-11",
   "market_signal": "GREEN",
-  "market_note": "S&P 500 7.365,12 ATH (+1,46%) und Nasdaq 25.838,94 ATH (+2,02%) am 06.05. -- beide auf neuen Rekordhochs. Iran-Peace-Deal-Hoffnung beflügelt Markt, Oel rueckläufig. Industrials +2,7%, Tech +2,2% fuehren. AMD-Mega-Beat triggert Halbleiter-Rally. Klar bullish.",
+  "market_note": "S&P 500 ~7.418 (+0,3%) und Nasdaq ~26.297 (+0,2%) am 11.05. -- beide nahe ATH nach 6 Gewinnwochen in Folge (laengste Serie seit 2024). Vorsicht: Oel steigt (Brent ~$104,80, WTI ~$99) nachdem Trump Irans Friedensvorschlag ablehnte -- Hormuz bleibt faktisch dicht. Memory-Chip-Rally (Micron & Co.) treibt Halbleiter. Marktampel GRUEN, aber Iran/Oel als Risikofaktor beobachten.",
   "picks": [
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices",
-      "price": 421.39,
-      "chart_pattern": "Cup with Handle Breakout",
+      "price": 455.19,
+      "chart_pattern": "Cup with Handle Breakout / Fortsetzung",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -18,13 +18,13 @@
         "I": true,
         "M": true
       },
-      "note": "Mega Q1-Beat: EPS $1,37, Umsatz $10,25B (+38% YoY), Datacenter +57% auf $5,8B. Q2-Guide $11,2B. +18,61% am 06.05. mit Mega-Volumen, bestes Earnings seit 7 Jahren. Cup-Handle aus Jan-Feb-Korrektur ($266 ATH-Region) gebrochen."
+      "note": "Schlusskurs $455,19 am 08.05., Marketcap ~$713B -- jetzt im Mega-Cap-Club. Nach Mega-Q1-Beat (EPS $1,37, Umsatz $10,25B +38% YoY, Datacenter +57% auf $5,8B, Q2-Guide $11,2B) weiter Aufwaertstrend. Lisa Su: Datacenter ist 'primary driver'. RXT-Cloud-Deal als Katalysator. GREEN solange ueber $400. Kein Earnings-Risiko bis ~Ende Juli/Aug."
     },
     {
       "ticker": "STRL",
       "name": "Sterling Infrastructure",
-      "price": 881.98,
-      "chart_pattern": "Cup with Handle Fortsetzung",
+      "price": 850.0,
+      "chart_pattern": "Cup with Handle Fortsetzung nahe ATH",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -35,13 +35,13 @@
         "I": true,
         "M": true
       },
-      "note": "Q1 EPS $3,59 vs $2,28 (+57% Beat), Umsatz +92%. FY-Guidance auf $18,40-19,05 angehoben (+72% YoY). 7-Tage +70,8%, Datacenter-Backlog +$1,2 Mrd. Kein Earnings-Risiko bis Aug."
+      "note": "52-Wochen-Hoch $888,95, am 10.05. Range $820-856. Nach Blowout-Q1 (EPS $3,59 vs $2,19 Konsens, Umsatz $825,7M vs $592M, FY-Guidance auf $18,40-19,05 angehoben) und +52% Tagesexplosion. KeyBanc-Ziel $889. Datacenter-Backlog-Story intakt. GREEN solange ueber $800. Kein Earnings-Risiko bis Aug."
     },
     {
       "ticker": "VRT",
       "name": "Vertiv Holdings",
-      "price": 358.92,
-      "chart_pattern": "Cup with Handle bestaetigt",
+      "price": 339.97,
+      "chart_pattern": "Cup with Handle bestaetigt -- Konsolidierung",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -52,13 +52,13 @@
         "I": true,
         "M": true
       },
-      "note": "Neues ATH $358,92 am 06.05. Q1 EPS $1,17 (+15,8% Beat), Adj-EPS +83%, Umsatz +30%. FY-Guidance erneut angehoben. Cup-Handle aus April-Konsolidierung gebrochen. Kein Earnings-Risiko bis Juli."
+      "note": "Schlusskurs $339,97 am 08.05. -- gesunde Konsolidierung nach ATH $358,92 am 06.05. Q1 EPS $1,17 (+15,8% Beat), Adj-EPS +83%, Umsatz +30%, FY-Guidance erneut angehoben. Datacenter-Power/Cooling-Leader. GREEN solange ueber $325. Kein Earnings-Risiko bis Juli."
     },
     {
       "ticker": "FIX",
       "name": "Comfort Systems USA",
-      "price": 2003.65,
-      "chart_pattern": "Flat Base Breakout / ATH",
+      "price": 1952.37,
+      "chart_pattern": "Flat Base nahe ATH",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -69,7 +69,24 @@
         "I": true,
         "M": true
       },
-      "note": "5-Tage-Rally +14%, Marketcap $69B. Q1 EPS $10,51 vs $6,78 (+55% Beat), Umsatz $2,9B (+56% YoY), Backlog rekordhoch. Flat-Base-Breakout aus 5W-Konsolidierung. Earnings ~Juli."
+      "note": "Schlusskurs $1.952,37 am 08.05. -- Flat Base knapp unter ATH $2.003,65. Q1 EPS $10,51 vs $6,78 (+55% Beat), Umsatz $2,9B (+56% YoY), Backlog rekordhoch. Datacenter-HVAC-Profiteur. GREEN solange ueber $1.900. Earnings ~Juli."
+    },
+    {
+      "ticker": "ECG",
+      "name": "Everus Construction Group",
+      "price": 169.16,
+      "chart_pattern": "Konsolidierung nach Breakout",
+      "signal": "GREEN",
+      "canslim": {
+        "C": true,
+        "A": true,
+        "N": true,
+        "S": true,
+        "L": true,
+        "I": true,
+        "M": true
+      },
+      "note": "~$169 am 06.05., Range $156,69-$173,00 -- ruhige Konsolidierung nach Q1-Beat (EPS $1,14 vs $0,81, +40% Beat). FFTY Top-Holding, +244% auf 52W, Marketcap ~$8,6B. Datacenter/Electrical-Construction. GREEN solange ueber $156. Kein Earnings-Risiko bis Aug."
     }
   ]
 }

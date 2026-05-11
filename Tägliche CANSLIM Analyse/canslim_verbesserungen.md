@@ -1,5 +1,76 @@
 # CANSLIM-Bericht Verbesserungslog
 
+## Lauf 22 -- 11. Mai 2026 (Montag)
+
+### Was gut lief
+- Slack-Nachricht in #claude erfolgreich gesendet -- ASCII-only Formatierung, ~3.300 Zeichen
+- JSON-Export per Read+Write direkt nach Projektordner erfolgreich
+- Marktampel GRUEN (mit Vorsicht): S&P 500 ~7.418 (+0,3%), Nasdaq ~26.297 (+0,2%) am 11.05. -- beide nahe ATH nach 6. Gewinnwoche in Folge (laengste Serie seit 2024)
+- Risikofaktor korrekt eingeordnet: Trump lehnt Irans Friedensvorschlag ab ("TOTALLY UNACCEPTABLE"), Oel steigt (Brent ~$104,80, WTI ~$99), Hormuz bleibt faktisch dicht
+- AMD als #1 GREEN gehalten -- Schlusskurs $455,19 am 08.05., Marketcap ~$713B, jetzt im Mega-Cap-Club. RXT-Cloud-Deal als Katalysator
+- STRL als #2 GREEN gehalten -- 52W-Hoch $888,95, am 10.05. Range $820-856, KeyBanc-Ziel $889
+- VRT als #3 GREEN -- gesunde Konsolidierung auf $339,97 (08.05.) nach ATH $358,92 (06.05.)
+- FIX als #4 GREEN -- $1.952,37 (08.05.), Flat Base knapp unter ATH $2.003,65
+- ECG als #5 GREEN gehalten -- ~$169, ruhige Konsolidierung Range $156,69-$173,00
+- MU (Micron) korrekt NICHT aufgenommen trotz Mega-Q2-Beat (EPS $12,20 vs $8,60) -- "parabolische Phase" = Climax-Top-Risiko, erst nach Konsolidierung
+- PLTR korrekt NICHT aufgenommen -- "Sell the News" trotz +85% Umsatz und Guidance-Hike, Bewertung zu hoch
+- MOD weiter ausgelassen wegen Earnings 27.05. (<2 Wochen)
+- Alle 5 Picks haben Q1-Earnings hinter sich -- niedrigste Earnings-Konzentration
+
+### Probleme
+- Sektor-Konzentration weiter hoch: 4 von 5 Picks Datacenter/Infrastruktur (nur AMD bringt Halbleiter-Exposure)
+- Memory-Chip-Rally (MU, SNDK, WDC) gerade parabolisch -- kein sauberer Einstieg verfuegbar, aber starkes Thema
+- EU-Pool weiter leer (RHM unter Threshold)
+- WebFetch auf cnbc.com/thestreet.com gibt 403 -- nur WebSearch-Snippets nutzbar; Live-Schlusskurse vom 11.05. nur intraday verfuegbar
+- VRT von $358,92 (06.05.) auf $339,97 (08.05.) zurueck -- als Konsolidierung gewertet, bei Bruch unter $325 YELLOW
+
+### Verbesserungen fuer naechsten Lauf (12.05.)
+
+1. **POST-RALLY MONITORING (KRITISCH):**
+   - AMD: GREEN solange ueber $400, bei Bruch unter $400 YELLOW
+   - STRL: nach 52W-Hoch $888,95 Konsolidierung moeglich -- GREEN solange ueber $800
+   - VRT: GREEN solange ueber $325, sonst YELLOW
+   - FIX: GREEN solange ueber $1.900
+   - ECG: GREEN solange ueber $156
+
+2. **MARKTAMPEL-MONITORING:**
+   - S&P ~7.418 -- GRUEN solange ueber 7.250, bei Bruch unter 7.150 sofort GELB
+   - Iran/Hormuz: bei Brent >$115 oder Eskalation Risiko fuer Marktampel
+   - 6 Gewinnwochen in Folge -- Pullback-Risiko erhoeht, Volumen beachten
+
+3. **Slack-Formatierung (bewaehrt, beibehalten):**
+   - Nur ASCII, keine Emojis, kein EUR-Zeichen, Umlaute als ae/oe/ue
+   - Punkt-Tausender und Komma-Dezimal (DACH-Style)
+   - Nachricht unter 3.500 Zeichen, Channel #claude (C0AN24EK9FY)
+
+4. **Datenquellen (funktionierend):**
+   - finance.yahoo.com, cnbc.com, thestreet.com, fool.com, marketbeat.com (via WebSearch-Snippets)
+   - timothysykes.com, 247wallst.com fuer Earnings/Movers
+   - WebFetch auf cnbc/thestreet liefert 403 -- WebSearch bevorzugen
+
+5. **Kandidatenpool fuer naechsten Lauf (12.05.):**
+   - AMD #1, STRL #2, VRT #3, FIX #4, ECG #5 -- alle GREEN solange Stops halten
+   - MU als Watchlist -- bei Konsolidierung/Pullback in Buy-Zone aufnehmen (Memory-Crunch-Story stark)
+   - MOD weiter aus Pool wegen Earnings 27.05.
+   - RHM weiter ausgeschlossen bei EUR <1.450
+
+6. **Earnings-Strategie (bewaehrt):**
+   - Alle 5 Picks haben Q1-Earnings hinter sich -- IDEAL
+   - Naechster Earnings-Termin im Pool: MOD 27.05. (nicht im Pool)
+   - WARNUNG bei Earnings innerhalb 2 Wochen
+
+7. **Sektor-Konzentration (anhaltendes Thema):**
+   - 4 von 5 Picks Datacenter/Infrastruktur -- Diversifikation pruefen
+   - Halbleiter (MU, NVDA, AVGO, MRVL), Cybersecurity (PANW, CRWD) als Alternativen erwaegen
+   - MU-Lesson: parabolische Werte nicht chasen, aber auf Watchlist halten fuer sauberen Re-Entry
+
+8. **JSON-Export funktioniert reliable:**
+   - Read+Write direkt nach Projektordner erfolgreich, 5 Picks (AMD, STRL, VRT, FIX, ECG) -- alle GREEN
+
+9. **GitHub-Push (Lauf 22):**
+   - Push auf Branch claude/ecstatic-darwin-FPJeS (Repo dielman90-afk/canslim_new) -- Slack-Bericht und JSON erfolgreich
+
+
 ## Lauf 21 -- 07. Mai 2026 (Donnerstag)
 
 ### Was gut lief
