@@ -1,103 +1,103 @@
 {
-  "updated": "2026-05-09",
-  "market_signal": "GREEN",
-  "market_note": "S&P 500 7.396 (+0,81%) und Nasdaq 26.199 (+1,53%) am 09.05. Halbleiter-Sektor explodiert: MU +15%, SNDK +16%, INTC +13%. Mega-Cap-Tech und KI-Infrastruktur fuehren. April Jobs +115K (vs 65K erwartet). SOXX +55% Q2. Klar bullish.",
+  "updated": "2026-05-11",
+  "market_signal": "YELLOW",
+  "market_note": "S&P 500 Futures -0,1% (von ATH 7.399 vom 08.05.). Trump lehnte Iran-Friedensvorschlag ab -- Brent +3,5% auf $104,80, Hormuz-Blockade weiter aktiv. 6 Gewinnwochen in Folge intakt, aber Oel-Inflation-Risiko steigt. Vorsicht geboten.",
   "picks": [
     {
       "ticker": "MU",
       "name": "Micron Technology",
-      "price": 757.35,
-      "chart_pattern": "Breakout auf Mega-Volumen",
+      "price": 746.81,
+      "chart_pattern": "Konsolidierung nach Mega-Breakout",
       "signal": "GREEN",
       "canslim": {
         "C": true, "A": true, "N": true, "S": true,
         "L": true, "I": true, "M": true
       },
-      "note": "Bester Tag seit Dez 2008: +15% auf Mega-Volumen. KI-Datacenter-Memory-Nachfrage explodiert. EPS Q2 +8x YoY, Q3-Guide $19,15 EPS = +10x YoY. Earnings im Maerz erledigt. Breakout aus Konsolidierung."
+      "note": "Gesunde Konsolidierung nach +15%-Tag am 09.05. EPS Q2 +8x YoY, Q3-Guide $19,15 (+10x YoY). KI-Memory-Nachfrage strukturell. Earnings im Maerz erledigt. Oel-unabhaengig."
     },
     {
       "ticker": "SNDK",
       "name": "SanDisk Corporation",
       "price": 1561.98,
-      "chart_pattern": "Continuation Breakout / ATH",
+      "chart_pattern": "Continuation Breakout / ATH-Zone",
       "signal": "GREEN",
       "canslim": {
         "C": true, "A": true, "N": true, "S": true,
         "L": true, "I": true, "M": true
       },
-      "note": "+464% YTD, +16,6% nach blockbuster Q3: Umsatz +251% YoY auf $5,95B, EPS $23,41 vs -$0,30 Vorjahr. AI-Datacenter-Storage-Nachfrage. Mizuho PT $1.625. Kein Earnings-Risiko naehere Zukunft."
+      "note": "+464% YTD. Q3-Beat: Umsatz +251% YoY auf $5,95B, EPS $23,41 vs -$0,30 Vj. AI-Datacenter-Storage strukturell. Mizuho PT $1.625. Kein Earnings-Risiko. Oel-unabhaengig."
     },
     {
       "ticker": "AMD",
       "name": "Advanced Micro Devices",
-      "price": 416.00,
-      "chart_pattern": "Cup with Handle Fortsetzung",
+      "price": 455.19,
+      "chart_pattern": "Breakout Fortsetzung / neues ATH",
       "signal": "GREEN",
       "canslim": {
         "C": true, "A": true, "N": true, "S": true,
         "L": true, "I": true, "M": true
       },
-      "note": "Q1-Mega-Beat: EPS $1,37 (+38% YoY), Datacenter +57% auf $5,8B, Q2-Guide $11,2B. Woche +15%. Cup-Handle intakt. Kein Earnings-Risiko bis Juli."
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel Corporation",
-      "price": 124.92,
-      "chart_pattern": "Breakout auf News-Volumen",
-      "signal": "GREEN",
-      "canslim": {
-        "C": true, "A": true, "N": true, "S": true,
-        "L": true, "I": true, "M": true
-      },
-      "note": "+13% am 05.05. auf Apple-Chip-Deal-News (Apple + Intel US-Fertigung). Q1-Beat: Umsatz $13,58B, EPS $0,29. +200%+ YTD. Neuer Katalysator belebt Aktie. Earnings erledigt."
+      "note": "Neues ATH $455 -- Fortsetzung nach Q1-Mega-Beat (Datacenter +57%). Woche +15%. Cup-Handle aufgeloest, neue Basis bildet sich. Kein Earnings-Risiko bis Juli."
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
-      "price": 215.20,
-      "chart_pattern": "Aufwaertstrend / nahe ATH",
-      "signal": "GREEN",
+      "price": 215.02,
+      "chart_pattern": "Aufwaertstrend / Basis nahe ATH",
+      "signal": "YELLOW",
       "canslim": {
         "C": true, "A": true, "N": true, "S": true,
         "L": true, "I": true, "M": true
       },
-      "note": "KI-Chip-Marktfuehrer, +15% YTD (moderat). AI-Capex-Story intakt, institutionelle Nachfrage hoch. Earnings im Mai erwartet -- Risiko pruefen vor Einstieg."
+      "note": "KI-Chip-Marktfuehrer strukturell stark. WARNUNG: Earnings Ende Mai erwartet -- 3-Wochen-Fenster. Vor Einstieg Earnings-Datum verifizieren. Kurs stabil bei $215."
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
       "price": 418.82,
-      "chart_pattern": "Aufwaertstrend / Base Breakout",
+      "chart_pattern": "Aufwaertstrend / Konsolidierung",
       "signal": "GREEN",
       "canslim": {
         "C": true, "A": true, "N": true, "S": true,
         "L": true, "I": true, "M": true
       },
-      "note": "+50% YTD. Pivot von Chip-Zulieferer zu KI-Infrastruktur-Pfeiler. Umsatz Q1 +29% YoY, Q2-Guidance +47% YoY. Stark institutionell gehalten. Nahe ATH."
+      "note": "+50% YTD. Q1 Umsatz +29%, Q2-Guide +47% YoY. KI-ASIC und Netzwerk-Leader. Stark institutionell gehalten. Earnings erledigt, naechstes Quartal ~Aug."
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "price": 124.92,
+      "chart_pattern": "Konsolidierung nach News-Breakout",
+      "signal": "GREEN",
+      "canslim": {
+        "C": true, "A": true, "N": true, "S": true,
+        "L": true, "I": true, "M": true
+      },
+      "note": "Apple-US-Chip-Deal als dauerhafter Katalysator. +200%+ YTD. Konsolidierung nach +13%-Tag gesund. Q1-Beat abgeschlossen. Kein Earnings-Risiko naechste Wochen."
     },
     {
       "ticker": "VRT",
       "name": "Vertiv Holdings",
-      "price": 348.96,
-      "chart_pattern": "Cup with Handle bestaetigt",
+      "price": 339.97,
+      "chart_pattern": "Ruecksetzer / Unterstuetzung",
       "signal": "GREEN",
       "canslim": {
         "C": true, "A": true, "N": true, "S": true,
         "L": true, "I": true, "M": true
       },
-      "note": "KI-Kuehlsysteme und Stromversorgung weiter gefragt. Konsolidierung unter ATH $358,92. Q1-Beat: EPS +83% adj., Guidance angehoben. Kein Earnings-Risiko bis Juli."
+      "note": "Leichter Ruecksetzer auf $339 (von ATH $358). Q1-Beat adj. EPS +83%, Guidance angehoben, Marktcap $130B. KI-Kuehlsysteme strukturell gefragt. Kein Earnings-Risiko bis Juli."
     },
     {
       "ticker": "FIX",
       "name": "Comfort Systems USA",
       "price": 1830.00,
-      "chart_pattern": "Flat Base Breakout / ATH",
+      "chart_pattern": "ATH-Zone / Konsolidierung",
       "signal": "GREEN",
       "canslim": {
         "C": true, "A": true, "N": true, "S": true,
         "L": true, "I": true, "M": true
       },
-      "note": "Neues ATH $1.830 am 09.05. Q1-Beat: EPS $10,51 vs $6,78 (+55%), Umsatz +56% YoY, Backlog rekordhoch. KI-Datacenter-HVAC-Spezialist. Kein Earnings-Risiko bis Juli."
+      "note": "ATH-Zone $1.830. Q1-Beat EPS +55%, Umsatz +56% YoY, Backlog $12,45B Rekord. KI-Datacenter-HVAC unabhaengig vom Oel-Risiko. Kein Earnings-Risiko bis Juli."
     },
     {
       "ticker": "STRL",
@@ -109,7 +109,7 @@
         "C": true, "A": true, "N": true, "S": true,
         "L": true, "I": true, "M": true
       },
-      "note": "$515 nach Konsolidierung (Hoch $881 am 06.05.). Q1-Beat: EPS +57%, Datacenter-Backlog +$1,2 Mrd, FY-Guidance angehoben. Konsolidierung gesund. Kein Earnings-Risiko bis Aug."
+      "note": "Gesunde Konsolidierung bei $515. Q1-Beat EPS +57%, Datacenter-Backlog +$1,2 Mrd. Oel-Risiko gering (Bau-Sektor). FY-Guidance angehoben. Kein Earnings-Risiko bis Aug."
     },
     {
       "ticker": "ECG",
@@ -121,7 +121,7 @@
         "C": true, "A": true, "N": true, "S": true,
         "L": true, "I": true, "M": true
       },
-      "note": "FFTY Top-3-Holding. Q1-Beat: EPS +40% vs Konsens. Datacenter-Bau-Exposure. $169 am 06.05. bestaetigt. Backlog $3,23B. Kein Earnings-Risiko naechste Wochen."
+      "note": "FFTY Top-3-Holding. Q1-Beat EPS +40%. Backlog $3,23B Datacenter-Bau. Oel-Risiko minimal. Kein Earnings-Risiko Ende Mai. Cup-Pattern intakt."
     }
   ]
 }

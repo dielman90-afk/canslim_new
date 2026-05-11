@@ -1,5 +1,29 @@
 # CANSLIM-Bericht Verbesserungslog
 
+## Lauf 23 -- 11. Mai 2026 (Montag)
+
+### Was gut lief
+- Alle 10 Picks geliefert mit ausgeschriebenen CANSLIM-Kriterien
+- Marktampel korrekt auf YELLOW gesetzt: Trump lehnte Iran-Deal ab, Brent +3,5% auf $104,80
+- Slack-DM beim ersten Versuch erfolgreich gesendet
+- AMD auf neuem ATH $455,19 -- Fortsetzung nach Q1-Mega-Beat
+- MU gesunde Konsolidierung bei $746 nach +15%-Tag am 09.05.
+- NVDA korrekt mit YELLOW-Signal markiert wegen Earnings-Risiko Ende Mai
+- Oel-Risiko bei jedem Pick bewertet und in Note erwaehnt
+
+### Probleme
+- Cron-Job laeuft nicht automatisch (kein Cron-Daemon im Container) -- manueller Lauf noetig
+- Slack-Webhook noch nicht eingerichtet -- MCP-abhaengig
+- NVDA Earnings-Datum noch nicht exakt bestaetigt -- naechsten Lauf pruefen
+- Preisdaten fuer FIX, STRL, ECG vom 09.05. -- kein Update fuer heute verfuegbar
+
+### Verbesserungen fuer naechsten Lauf (12.05.)
+1. NVDA Earnings-Datum exakt verifizieren (Ende Mai?)
+2. Slack-Webhook einrichten fuer vollstaendige Automatisierung
+3. Iran-Situation beobachten: Brent ueber $110 = Marktampel auf ROT
+
+---
+
 ## Lauf 22 -- 09. Mai 2026 (Samstag)
 
 ### Was gut lief
