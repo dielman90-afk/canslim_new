@@ -1,5 +1,61 @@
 # CANSLIM-Bericht Verbesserungslog
 
+## Lauf 23 -- 12. Mai 2026 (Dienstag)
+
+### Was gut lief
+- Slack-Nachricht in #claude (C0AN24EK9FY) beim ersten Versuch erfolgreich gesendet -- ASCII-only, DACH-Formatierung bewaehrt (~3.300 Zeichen)
+- Marktdaten per WebSearch zuverlaessig: S&P 500 7.412,84 ATH (Schluss 11.05.), Nasdaq 26.274,13, Dow 49.704,47 -- 6. Gewinnwoche in Folge, laengste Serie seit 2024
+- April-CPI-Bericht (8:30 ET) korrekt als Wochen-Schwerpunkt identifiziert -- Konsens ~3,8% Headline / ~2,7% Kern YoY, oel-getrieben
+- Top-5 stabil gehalten: AMD, STRL, VRT, FIX, ECG -- alle GRUEN, alle Q1-Earnings hinter sich
+- AMD im neuen ATH-Gebiet (Intraday-Hoch $471,94), Marketcap ~$748 Mrd. -- jetzt Mega-Cap-Club, 33 Analysten Buy-Konsens
+- VRT NEUES ATH heute (Intraday-Hoch $372,00) -- Cup-with-Handle voll durchgebrochen
+- FIX NEUES ATH heute (Intraday-Hoch $2.045,14) -- Flat-Base-Breakout bestaetigt
+- STRL Konsolidierung gesund nahe 52W-Hoch $888,95, GRUEN solange ueber $800
+- ECG ruhige Konsolidierung Range $156,69-$173,00, GRUEN solange ueber $156
+- Watchlist sauber gefuehrt: MU/SNDK (parabolisch -- meiden bis Konsolidierung), PLTR (Sell-the-News), NVDA (Earnings Ende Mai), MOD (Earnings 27.05.)
+- JSON-Export erweitert um "watchlist"-Feld
+
+### Probleme
+- Sektor-Konzentration weiter hoch: 4 von 5 Picks Datacenter/Infrastruktur (nur AMD bringt Halbleiter-Diversifikation)
+- EU-Pool weiter leer (RHM unter Threshold)
+- CPI-Tag = erhoehtes Tagesvolatilitaets-Risiko -- bei heissem Print koennte 6-Wochen-Serie an einem Tag enden
+- Oel weiter erhoeht (Brent ~$104,80, WTI ~$99) -- Inflationsrisiko bleibt; Hormuz faktisch dicht nach Trumps Ablehnung des Iran-Deals
+- Lauf 22 (11.05.) wurde an Slack gesendet, aber nicht ins Repo committet -- diese Datei sprang von Lauf 21 auf Lauf 23
+
+### Verbesserungen fuer naechsten Lauf (13.05.)
+
+1. **POST-CPI-MONITORING (KRITISCH):**
+   - April-CPI-Ergebnis verifizieren -- bei Headline deutlich ueber 3,8% oder Kern ueber 2,9% sofort GELB pruefen
+   - S&P 7.413 ATH -- GRUEN solange ueber 7.250; bei Bruch unter 7.150 (50-Tage-MA-Naehe) sofort GELB
+   - Brent ~$104,80 -- bei Spike >$115 Vorsicht, Marktampel auf GELB pruefen
+   - Iran/Hormuz-Status taeglich pruefen -- jede Eskalation = Oel-Spike-Risiko
+
+2. **PICK-LEVELS (Stops):**
+   - AMD: GRUEN solange ueber $400 -- nach ATH-Run evtl. Pullback, kein Stress solange ueber $420
+   - STRL: GRUEN solange ueber $800 -- bei Bruch darunter YELLOW
+   - VRT: GRUEN solange ueber $340 (ATH ~$372) -- bei Bruch darunter YELLOW
+   - FIX: GRUEN solange ueber $1.950 (ATH ~$2.045) -- bei Bruch unter $1.900 YELLOW
+   - ECG: GRUEN solange ueber $156 -- bei Bruch darunter YELLOW
+
+3. **Slack-Formatierung (bewaehrt, beibehalten):**
+   - Nur ASCII, keine Emojis, kein EUR-Zeichen; Umlaute als ae/oe/ue
+   - Punkt-Tausender, Komma-Dezimal (DACH-Style); Nachricht unter ~3.500 Zeichen
+   - Channel: #claude (ID C0AN24EK9FY)
+
+4. **Watchlist-Pflege:**
+   - MU & SNDK: erst nach Konsolidierung (nicht in parabolischer Phase einsteigen) -- weiter beobachten
+   - NVDA: Earnings-Datum Ende Mai verifizieren; ggf. nach Earnings-Beat aufnehmen
+   - MOD: nach Earnings 27.05. erneut pruefen
+   - PLTR: weiter meiden bei aktueller Bewertung
+   - Sektor-Diversifikation suchen (Pharma/Healthcare, Cybersecurity PANW/CRWD) statt 4x Datacenter
+
+5. **Datenquellen (funktionierend):**
+   - WebSearch -> Yahoo Finance, CNBC, TheStreet, Motley Fool, MarketBeat, Kiplinger, BLS, TradingEconomics
+   - Fuer Intraday-Kurse: Yahoo Finance / CNBC / Investing.com zuverlaessig
+
+6. **GitHub-Push (Lauf 23):**
+   - canslim-picks.json + canslim_verbesserungen.md auf Branch claude/ecstatic-darwin-8lygC committet und gepusht
+
 ## Lauf 21 -- 07. Mai 2026 (Donnerstag)
 
 ### Was gut lief
