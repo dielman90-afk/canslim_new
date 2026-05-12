@@ -1,5 +1,38 @@
 # CANSLIM-Bericht Verbesserungslog
 
+## Lauf 22 -- 12. Mai 2026 (Dienstag)
+
+### Auftrag
+- Spezial-Vorgabe des Users: NUR Aktien beruecksichtigen, die (a) noch nicht ausgebrochen, aber kurz davor sind, (b) direkt am Breakout-Punkt stehen oder (c) erst kuerzlich ausgebrochen sind. Schwache UND bereits weit gelaufene Setups konsequent herausfiltern. Max. 10 Aktien, Qualitaet vor Quantitaet.
+
+### Was gut lief
+- Slack-Nachricht beim ersten Versuch erfolgreich gesendet (DM an User, ~3.300 Zeichen, ASCII/DACH-Format, Markdown-Fettungen)
+- Marktampel klar GRUEN: S&P 500 7.412,84 ATH (+0,19%), Nasdaq 26.274,13 ATH (+0,1%), Russell 2000 2.868,58 Rekord am 11.05. -- alle drei auf neuen Hochs, laengste Wochengewinnstrecke seit 2024
+- Q1-Earnings-Saison sehr stark: 84% EPS-Beats, ~15% Gewinnwachstum -- bestes Niveau seit 4 Jahren
+- Filter konsequent angewandt: nur 4 Picks statt 5, alle frisch/imminent am Breakout
+- GLW (Corning) NEU als #1 -- Breakout auf neues 52W-Hoch $207,60 (12.05., +10%+) nach Nvidia-Partnerschaft (10x Optik-Kapazitaet, +50% US-Faserproduktion, 3 neue Werke), Q1 Umsatz +18%, Adj-EPS +30%, Ziel $40B Run-Rate 2030. Direkt am Ausbruch, noch nicht ueberdehnt
+- VRT als #2 -- Ausbruch ueber $340-360-Range am 11.05. (+8%), Citi PT $414 Street-High, Q1 Adj-EPS +83%. Mit Hinweis "oberer Rand der Kaufzone"
+- FIX als #3 -- Flat-Base-Breakout 05./06.05. (ATH $2.018), knapp ueber Pivot, Q1 EPS $10,51 vs $6,78 (+55%), Backlog $12,5B
+- ECG als #4 -- Earnings-Gap-Breakout 05.05. (+10%), enge Konsolidierung $156-173, Q1 EPS $1,14 vs $0,81 (+137% vs Konsens), Umsatz +25%
+- Alle 4 Picks ohne Earnings-Risiko in den naechsten 2 Wochen
+- Bewusst ausgelassen (Filter): AMD (+18,6%/Tag zu weit), STRL (+70%/7T ueberdehnt), CRDO/ALAB (+40-53%/Monat ueberdehnt), POWL (EPS-Miss + 165% YTD schwach), APH (Base-Failure -6,3% am 08.05.), PRIM (-50% nach Q1-Miss + Guidance-Kuerzung), MOD (Earnings 27.05. < 2 Wochen), RHM (Defense schwach, unter ATH)
+- JSON-Export erfolgreich per Read+Write nach Projektordner
+
+### Probleme
+- Slack-Channel-Suche lieferte 0 Treffer (auch "general") -- Nachricht daher an User-DM (U0AMXQ1EA4B) gesendet. Bei naechstem Lauf ggf. expliziten Channel vom User erfragen
+- push_to_github.py zielt auf separates Repo dielman90-afk/CANSLIM-picks + braucht .github_token (nicht vorhanden) -- stattdessen Commit/Push in dielman90-afk/canslim_new auf Branch claude/pensive-babbage-GbUEX
+- Kurse aus Web-Recherche (Yahoo/CNBC/TheStreet/Fool/ad-hoc-news), keine echten Chartdaten -- Breakout-Einschaetzung weiter qualitativ
+- Sektor-Konzentration hoch: GLW/VRT/FIX/ECG alle AI-Datacenter-/Elektrifizierungs-Plays. EU-Pool leer (RHM ausgeschlossen)
+- VRT bei ~$388 nach +8% bereits am oberen Rand der Kaufzone -- streng genommen grenzwertig zum "weit gelaufen"-Kriterium; nur wegen Leader-Status + frischem Range-Breakout drin gelassen
+
+### Verbesserungen fuer naechsten Lauf
+1. POST-BREAKOUT-MONITORING: GLW GREEN solange ueber $195; VRT nur bei Pullback $360-370 nachlegen, unter $355 Vorsicht; FIX GREEN solange ueber $1.900; ECG GREEN solange ueber $156
+2. MARKTAMPEL: S&P 7.412 ATH -- GRUEN solange ueber 7.250, bei Bruch unter 7.150 GELB. Iran-Waffenstillstand "on life support" + Oel-Anstieg (WTI $98, Brent $104) als Hauptrisiko beobachten
+3. SLACK: Channel-ID vom User erfragen, falls DM nicht gewuenscht. ASCII/DACH-Format beibehalten, unter 3.500 Zeichen
+4. KANDIDATEN naechster Lauf: GLW #1, VRT #2 (nur bei Pullback), FIX #3, ECG #4. Auf neue frische Breakouts pruefen: Memory/Storage (MU, STX -- aber beide bereits stark ueberdehnt), ISRG (Healthcare-Leader, Q1 Umsatz +23%) auf Setup pruefen
+5. EARNINGS: MOD 27.05. weiter aus Pool. Nochmal pruefen welche Picks Q2-Earnings im Juli/Aug haben
+6. SEKTOR-DIVERSIFIKATION: gezielt nach Nicht-AI-Breakouts suchen (Healthcare, Fintech, Consumer) -- aktuell 100% AI-Infrastruktur
+
 ## Lauf 21 -- 07. Mai 2026 (Donnerstag)
 
 ### Was gut lief

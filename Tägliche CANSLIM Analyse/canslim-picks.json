@@ -1,47 +1,31 @@
 {
-  "updated": "2026-05-07",
+  "updated": "2026-05-12",
   "market_signal": "GREEN",
-  "market_note": "S&P 500 7.365,12 ATH (+1,46%) und Nasdaq 25.838,94 ATH (+2,02%) am 06.05. -- beide auf neuen Rekordhochs. Iran-Peace-Deal-Hoffnung beflügelt Markt, Oel rueckläufig. Industrials +2,7%, Tech +2,2% fuehren. AMD-Mega-Beat triggert Halbleiter-Rally. Klar bullish.",
+  "market_note": "S&P 500 7.412,84 ATH (+0,19%), Nasdaq 26.274,13 ATH (+0,1%), Russell 2000 2.868,58 Rekord am 11.05. -- alle drei Indizes auf neuen Hochs, laengste Wochengewinnstrecke seit 2024. Q1-Earnings sehr stark (84% Beats, ~15% Gewinnwachstum). Halbleiter/Memory fuehren (MU, STX, AMD). RISIKO: Iran-Waffenstillstand laut Trump 'on life support', Oel +3% (WTI $98, Brent $104), Defense schwach. GRUEN solange S&P ueber 7.250, bei Bruch unter 7.150 GELB.",
+  "filter_note": "Berücksichtigt nur Aktien kurz vor / direkt am / kurz nach dem Breakout. Schwache und bereits weit gelaufene Setups (AMD +18,6%/Tag, STRL +70%/7T, CRDO/ALAB +40-53%/Monat, POWL EPS-Miss+165% YTD, APH Base-Failure, PRIM -50% nach Q1-Miss, MOD Earnings 27.05.) konsequent aussortiert. Qualitaet vor Quantitaet -- bewusst nur 4 Picks.",
   "picks": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "price": 421.39,
-      "chart_pattern": "Cup with Handle Breakout",
+      "ticker": "GLW",
+      "name": "Corning",
+      "price": 207.60,
+      "chart_pattern": "Breakout auf neues 52W-Hoch",
       "signal": "GREEN",
       "canslim": {
         "C": true,
         "A": true,
         "N": true,
-        "S": true,
+        "S": false,
         "L": true,
         "I": true,
         "M": true
       },
-      "note": "Mega Q1-Beat: EPS $1,37, Umsatz $10,25B (+38% YoY), Datacenter +57% auf $5,8B. Q2-Guide $11,2B. +18,61% am 06.05. mit Mega-Volumen, bestes Earnings seit 7 Jahren. Cup-Handle aus Jan-Feb-Korrektur ($266 ATH-Region) gebrochen."
-    },
-    {
-      "ticker": "STRL",
-      "name": "Sterling Infrastructure",
-      "price": 881.98,
-      "chart_pattern": "Cup with Handle Fortsetzung",
-      "signal": "GREEN",
-      "canslim": {
-        "C": true,
-        "A": true,
-        "N": true,
-        "S": true,
-        "L": true,
-        "I": true,
-        "M": true
-      },
-      "note": "Q1 EPS $3,59 vs $2,28 (+57% Beat), Umsatz +92%. FY-Guidance auf $18,40-19,05 angehoben (+72% YoY). 7-Tage +70,8%, Datacenter-Backlog +$1,2 Mrd. Kein Earnings-Risiko bis Aug."
+      "note": "Nvidia-Partnerschaft: 10-fache Optik-Kapazitaet, +50% US-Faserproduktion, 3 neue Werke (NC/TX). Q1 Umsatz +18% YoY auf $4,35B, Adj-EPS +30%. Ziel $20B Run-Rate Ende 2026, $40B bis 2030 (~19% CAGR). AI-Optik-Leader, direkt am Ausbruch (12.05., +10%+) -- noch nicht ueberdehnt. Q1 bereits raus, kein Earnings-Risiko. Schwaeche: grosser Float (S), A-Wachstum grenzwertig."
     },
     {
       "ticker": "VRT",
       "name": "Vertiv Holdings",
-      "price": 358.92,
-      "chart_pattern": "Cup with Handle bestaetigt",
+      "price": 388.00,
+      "chart_pattern": "Ausbruch ueber $340-360-Konsolidierung",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -52,13 +36,13 @@
         "I": true,
         "M": true
       },
-      "note": "Neues ATH $358,92 am 06.05. Q1 EPS $1,17 (+15,8% Beat), Adj-EPS +83%, Umsatz +30%. FY-Guidance erneut angehoben. Cup-Handle aus April-Konsolidierung gebrochen. Kein Earnings-Risiko bis Juli."
+      "note": "Q1 Umsatz +30% YoY auf $2,65B, Adj-EPS +83% auf $1,17, Guidance erneut angehoben. Citi PT $414 (Street-High), UBS/BNP Exane $370. AI-Datacenter-Power-Leader, Ausbruch 11.05. (+8%). ACHTUNG: oberer Rand der Kaufzone -- nur bei Pullback Richtung $360-370 nachlegen. Kein Earnings-Risiko bis Juli."
     },
     {
       "ticker": "FIX",
       "name": "Comfort Systems USA",
-      "price": 2003.65,
-      "chart_pattern": "Flat Base Breakout / ATH",
+      "price": 2020.00,
+      "chart_pattern": "Flat Base Breakout / 52W-Hoch",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -69,7 +53,24 @@
         "I": true,
         "M": true
       },
-      "note": "5-Tage-Rally +14%, Marketcap $69B. Q1 EPS $10,51 vs $6,78 (+55% Beat), Umsatz $2,9B (+56% YoY), Backlog rekordhoch. Flat-Base-Breakout aus 5W-Konsolidierung. Earnings ~Juli."
+      "note": "Q1 EPS $10,51 vs $6,78 (+55% Beat), Umsatz +56% YoY, Backlog Rekord $12,5B, FY-Guidance mid-to-high-20% Umsatzwachstum. ATH $2.018 am 06.05., erst ~1 Woche aus 5W-Flat-Base ausgebrochen, knapp ueber Pivot -- sauberes Setup. Kein Earnings-Risiko bis ~Juli."
+    },
+    {
+      "ticker": "ECG",
+      "name": "Everus Construction",
+      "price": 169.16,
+      "chart_pattern": "Earnings-Gap-Breakout, enge Konsolidierung",
+      "signal": "GREEN",
+      "canslim": {
+        "C": true,
+        "A": true,
+        "N": true,
+        "S": true,
+        "L": true,
+        "I": true,
+        "M": true
+      },
+      "note": "Q1 EPS $1,14 vs $0,81 erwartet (+137% vs Konsens), Umsatz +25% YoY auf $1,04B (E&M und T&D stark). FFTY-Holding, Datacenter-/Elektrifizierungs-Bau. Gap-Breakout 05.05. (+10%), seitdem enge Konsolidierung $156-173 -- frisch ausgebrochen, noch nicht weit gelaufen. Kein Earnings-Risiko."
     }
   ]
 }
