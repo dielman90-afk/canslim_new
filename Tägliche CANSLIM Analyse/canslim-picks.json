@@ -1,12 +1,46 @@
 {
-  "updated": "2026-05-07",
-  "market_signal": "GREEN",
-  "market_note": "S&P 500 7.365,12 ATH (+1,46%) und Nasdaq 25.838,94 ATH (+2,02%) am 06.05. -- beide auf neuen Rekordhochs. Iran-Peace-Deal-Hoffnung beflügelt Markt, Oel rueckläufig. Industrials +2,7%, Tech +2,2% fuehren. AMD-Mega-Beat triggert Halbleiter-Rally. Klar bullish.",
+  "updated": "2026-05-13",
+  "market_signal": "YELLOW-GREEN",
+  "market_note": "S&P 500 7.412,84 (+0,2%) knapp ueber 7.400, Nasdaq 26.274,13 (-0,71%) Tech-Schwaeche. April-CPI 3,8% > Konsens 3,7% -- Inflation hot. 10Y-Yield 4,43%. Iran-Ceasefire 'on life support', Brent $104,21. QCOM -10 bis -14% nach Vortags-Spike = Tech-Selloff. Vorsichtig grun, bei S&P unter 7.250 sofort GELB.",
   "picks": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "price": 421.39,
+      "ticker": "VRT",
+      "name": "Vertiv Holdings",
+      "price": 367.13,
+      "chart_pattern": "ATH-Breakout (frisch)",
+      "signal": "GREEN",
+      "canslim": {
+        "C": true,
+        "A": true,
+        "N": true,
+        "S": true,
+        "L": true,
+        "I": true,
+        "M": true
+      },
+      "note": "Neues ATH am 12.05. ($367,13 vs $359,84 ATH am 06.05.). Cup-Handle-Fortsetzung bestaetigt. Q1 EPS $1,17 (+15,8% Beat), Adj-EPS +83% YoY, Umsatz +30%. FY-Guidance angehoben. +270% in 12M. AI-Datacenter-Power-Leader. Stop unter $345. Earnings durch bis Juli."
+    },
+    {
+      "ticker": "CYTK",
+      "name": "Cytokinetics",
+      "price": 77.03,
+      "chart_pattern": "Multi-Monats-Base-Breakout (kuerzlich)",
+      "signal": "GREEN",
+      "canslim": {
+        "C": true,
+        "A": true,
+        "N": true,
+        "S": true,
+        "L": true,
+        "I": true,
+        "M": true
+      },
+      "note": "Am 05.05. +16,5% Volume-Breakout aus $60-68 Range auf $76+. Phase-3 ACACIA-HCM-Topline POSITIV. Q1 EPS -$1,67 (in line), Umsatz $19,4M vs $1,6M Vorjahr (12x). MYCorzo-Launch laeuft, $11,9M Bayer-Milestone. Pharma-Diversifikation. Stop unter $68."
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services",
+      "price": 770.0,
       "chart_pattern": "Cup with Handle Breakout",
       "signal": "GREEN",
       "canslim": {
@@ -18,13 +52,13 @@
         "I": true,
         "M": true
       },
-      "note": "Mega Q1-Beat: EPS $1,37, Umsatz $10,25B (+38% YoY), Datacenter +57% auf $5,8B. Q2-Guide $11,2B. +18,61% am 06.05. mit Mega-Volumen, bestes Earnings seit 7 Jahren. Cup-Handle aus Jan-Feb-Korrektur ($266 ATH-Region) gebrochen."
+      "note": "ATH $788,75 am 06.05., +4,36% am 11.05. Q1 EPS $2,68 vs $1,98 Konsens (+35% MEGA-BEAT). FY-Guidance ANGEHOBEN, Rekord-Backlog $48,5 Mrd. Datacenter, Renewables, Power-Generation. Stop unter $720. Earnings durch -- naechste Aug."
     },
     {
-      "ticker": "STRL",
-      "name": "Sterling Infrastructure",
-      "price": 881.98,
-      "chart_pattern": "Cup with Handle Fortsetzung",
+      "ticker": "ZBRA",
+      "name": "Zebra Technologies",
+      "price": 340.0,
+      "chart_pattern": "Earnings-Gap-Breakout (frisch)",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -35,41 +69,7 @@
         "I": true,
         "M": true
       },
-      "note": "Q1 EPS $3,59 vs $2,28 (+57% Beat), Umsatz +92%. FY-Guidance auf $18,40-19,05 angehoben (+72% YoY). 7-Tage +70,8%, Datacenter-Backlog +$1,2 Mrd. Kein Earnings-Risiko bis Aug."
-    },
-    {
-      "ticker": "VRT",
-      "name": "Vertiv Holdings",
-      "price": 358.92,
-      "chart_pattern": "Cup with Handle bestaetigt",
-      "signal": "GREEN",
-      "canslim": {
-        "C": true,
-        "A": true,
-        "N": true,
-        "S": true,
-        "L": true,
-        "I": true,
-        "M": true
-      },
-      "note": "Neues ATH $358,92 am 06.05. Q1 EPS $1,17 (+15,8% Beat), Adj-EPS +83%, Umsatz +30%. FY-Guidance erneut angehoben. Cup-Handle aus April-Konsolidierung gebrochen. Kein Earnings-Risiko bis Juli."
-    },
-    {
-      "ticker": "FIX",
-      "name": "Comfort Systems USA",
-      "price": 2003.65,
-      "chart_pattern": "Flat Base Breakout / ATH",
-      "signal": "GREEN",
-      "canslim": {
-        "C": true,
-        "A": true,
-        "N": true,
-        "S": true,
-        "L": true,
-        "I": true,
-        "M": true
-      },
-      "note": "5-Tage-Rally +14%, Marketcap $69B. Q1 EPS $10,51 vs $6,78 (+55% Beat), Umsatz $2,9B (+56% YoY), Backlog rekordhoch. Flat-Base-Breakout aus 5W-Konsolidierung. Earnings ~Juli."
+      "note": "+17% am 12.05. nach Q1-Beat. EPS $4,75 vs $4,25 Konsens (+12% Beat), Umsatz $1,5B. Q2-Guidance ueber Konsens, AI-Strategie-Refokus. Brach klar aus monatelanger Konsolidierung aus. Industrial-Automation/AI-Sektor-Diversifikation. Stop unter $310."
     }
   ]
 }

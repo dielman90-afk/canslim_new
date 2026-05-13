@@ -1,5 +1,100 @@
 # CANSLIM-Bericht Verbesserungslog
 
+## Lauf 22 -- 13. Mai 2026 (Mittwoch)
+
+### Was gut lief
+- Slack-Nachricht beim ersten Versuch erfolgreich gesendet an #allgemein -- ASCII-only Formatierung bewaehrt (~3.400 Zeichen)
+- JSON-Export erfolgreich ueber Write-Tool aktualisiert
+- Marktampel sauber auf GELB-GRUEN herabgestuft: S&P 500 7.412,84 (+0,2%), aber Nasdaq -0,71% Tech-Schwaeche, April-CPI 3,8% > 3,7% Konsens, 10Y-Yield 4,43%, Iran-Ceasefire "on life support"
+- Konsequente Filter-Disziplin: AMD (+35%/Mai), STRL (+70%), RKLB (+400% YTD) als zu weit gelaufen herausgefiltert -- klare Anwendung der Nutzer-Vorgaben
+- Schwache Setups konsequent gemieden: FIX (-3,5% am 12.05. wegen Hot-CPI), QCOM (-10 bis -14% nach Spike-Crash) sofort raus
+- 4 hochwertige Picks statt 5+ mittelmaessige -- Qualitaet > Quantitaet
+- Sektor-Diversifikation deutlich verbessert: Datacenter-Power (VRT, PWR), Pharma (CYTK), Industrial-AI (ZBRA) statt 4-5x Datacenter-only
+- VRT korrekt gehalten -- neues ATH $367,13 am 12.05. (vs $359,84 ATH am 06.05.) = klares Post-Breakout
+- CYTK NEU als Pharma-Diversifikation aufgenommen -- Volume-Breakout 05.05. nach Phase-3 ACACIA-HCM-Erfolg
+- PWR NEU aufgenommen -- ATH $788,75 am 06.05., Q1 EPS $2,68 vs $1,98 Konsens (+35% Beat), Backlog $48,5 Mrd.
+- ZBRA NEU aufgenommen -- +17% Gap am 12.05. nach Q1-Beat, AI-Strategie-Refokus
+- PANW korrekt ausgeschlossen wegen Earnings 02.06. (3 Wochen) -- Earnings-Risiko-Disziplin
+- VSTS Watchlist statt Pick -- +30% in 1 Tag zu explosiv fuer cleane Buy-Zone
+
+### Probleme
+- Tech-Selloff am 12.05. (Nasdaq -0,71%, QCOM -10 bis -14%) zeigt erste Schwaeche im Markt
+- Iran-Risiko zurueck -- Brent $104, "Ceasefire on life support" laut Trump
+- April-CPI 3,8% (Konsens 3,7%) bestaetigt Inflation hot bleibt -- Fed-Cuts-Hoffnung weiter raus
+- AMD (Lauf 21 #1) nach +35%/Mai komplett rausgefallen -- Lehre: Mega-Cap-Earnings-Beats schnell weit gelaufen
+- STRL (Lauf 21 #2) nach +70% nur Range-bound $844-875 -- bestaetigt: nach Mega-Rally Konsolidierung
+- FIX (Lauf 21 #4) durch CPI-Hot-Reaktion sofort raus -- Macro-Sensitivitaet HVAC-/Bau-Sektor
+- ECG (Lauf 21 #5) -2,4% Wochenverlust -- nicht zu Watchlist degradiert
+- EU-Pool weiter leer
+
+### Verbesserungen fuer naechsten Lauf (14.05.)
+
+1. **POST-BREAKOUT MONITORING (KRITISCH):**
+   - VRT: $367,13 ATH 12.05. -- GREEN solange ueber $345
+   - CYTK: GREEN solange ueber $68 (alter Widerstand wird Support)
+   - PWR: GREEN solange ueber $720
+   - ZBRA: GREEN solange ueber $310
+   - Bei jedem dieser Picks: starker Volume bei Pullbacks = Bestaetigung, schwacher Volume = OK
+
+2. **MARKTAMPEL-MONITORING (verschaerft):**
+   - S&P 7.412 -- GELB-GRUEN solange ueber 7.250
+   - Bei Bruch unter 7.250 (50-Tage-MA Naehe) sofort GELB
+   - Nasdaq 26.274 (-0,71%) -- bei zwei Tagen in Folge unter -1% Tech-Stress
+   - Iran-Ceasefire "on life support" -- bei Brent ueber $115 oder Iran-Aktion sofort GELB
+   - April-CPI 3,8% > 3,7% Konsens -- Mai-CPI am 11.06. = grosses Risiko
+   - 10Y-Yield 4,43% -- bei Bruch ueber 4,60% Bond-Stress fuer Wachstumswerte
+
+3. **Slack-Formatierung (bewaehrt, beibehalten):**
+   - Nur ASCII, keine Emojis, kein EUR-Zeichen
+   - Umlaute als ae/oe/ue
+   - Punkt-Tausender und Komma-Dezimal fuer DACH-Style
+   - Channel: #allgemein (C0AN7PAV5T6)
+   - Nachricht unter 3.500 Zeichen (Lauf 22: ~3.400)
+
+4. **Datenquellen (funktionierend in Lauf 22):**
+   - finance.yahoo.com, marketbeat.com, cnbc.com, fool.com, thestreet.com
+   - tradingview.com, seekingalpha.com fuer Technicals
+   - timothysykes.com, stockstotrade.com fuer Stock-News
+   - parameter.io, ts2.tech (NEU): Rocket-Lab-Analyse
+   - financialcontent.com, gurufocus.com fuer Falling-Stocks-Erklaerungen
+   - tipranks.com fuer Analyst-Targets
+
+5. **Kandidatenpool fuer naechsten Lauf (14.05.):**
+   - VRT als #1 -- frischer ATH-Breakout, GREEN solange ueber $345
+   - CYTK als #2 -- Pharma-Diversifikation, GREEN solange ueber $68
+   - PWR als #3 -- Cup-Handle, GREEN solange ueber $720
+   - ZBRA als #4 -- Earnings-Gap, GREEN solange ueber $310
+   - VSTS als Watchlist -- nach +30% Konsolidierung abwarten
+   - AXSM als Watchlist -- $224 stabil post-Earnings
+   - ECG aus Pool entfernt nach -2,4% Wochenverlust
+   - AMD/STRL nach Mega-Rallys Pause -- vorerst aus Pool
+   - PANW weiter raus wegen Earnings 02.06.
+
+6. **Earnings-Strategie (verschaerft):**
+   - Alle 4 Picks haben Q1-Earnings hinter sich -- IDEAL
+   - Naechste Earnings-Risiken: PWR und ZBRA erst Aug.
+   - WARNUNG bei Earnings innerhalb 2 Wochen
+   - Mai-CPI am 11.06. als naechster Macro-Termin im Auge behalten
+
+7. **Filter-Disziplin (Lehre aus Lauf 22):**
+   - "Weit gelaufen" konkret: > +30% in 30 Tagen ODER > +200% YTD = SKIP
+   - "Schwach" konkret: roter Tag >-3% bei Macro-News = SKIP
+   - "Frisch breakout" konkret: <10 Handelstage seit Breakout = OK
+   - "Kurz vor breakout" konkret: < 5% unter Pivot mit volume-rising = OK
+   - Klare Konzentration auf Qualitaet zahlt sich aus
+
+8. **Sektor-Diversifikation (verbessert):**
+   - 4 verschiedene Sektoren: Datacenter-Power (VRT), Pharma (CYTK), Power-Infrastructure (PWR), Industrial-Automation (ZBRA)
+   - Keine reine Datacenter-Konzentration mehr
+   - CYTK als erste Pharma-Aktie in Pool seit Wochen -- Erfolg
+
+9. **Watchlist fuer Sektoren noch fehlend:**
+   - Cybersecurity (CRWD +47% YTD evtl. zu weit, PANW Earnings-Risiko)
+   - Mega-Cap Semis (NVDA, AVGO -- zuletzt nicht gepruft)
+   - Financials (Banken-Setups bei steigenden Yields)
+   - Energy (bei stabilem hohen Oel)
+
+
 ## Lauf 21 -- 07. Mai 2026 (Donnerstag)
 
 ### Was gut lief
