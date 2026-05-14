@@ -1,13 +1,13 @@
 {
-  "updated": "2026-05-07",
+  "updated": "2026-05-14",
   "market_signal": "GREEN",
-  "market_note": "S&P 500 7.365,12 ATH (+1,46%) und Nasdaq 25.838,94 ATH (+2,02%) am 06.05. -- beide auf neuen Rekordhochs. Iran-Peace-Deal-Hoffnung beflügelt Markt, Oel rueckläufig. Industrials +2,7%, Tech +2,2% fuehren. AMD-Mega-Beat triggert Halbleiter-Rally. Klar bullish.",
+  "market_note": "S&P 500 7.444,25 ATH (+0,58%) und Nasdaq 26.402,34 ATH (+1,20%) am 13.05. -- beide auf neuen Rekordhochs trotz heisser PPI-Inflation (+6,0% YoY). AI-Chip-Rally treibt Markt, 6 von 7 Magnificent Seven +1,4 bis +3,9%. 27 S&P-500-Aktien neue 52W-Hochs. Klar bullish, aber Inflations-Risiko beobachten.",
   "picks": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "price": 421.39,
-      "chart_pattern": "Cup with Handle Breakout",
+      "ticker": "POWL",
+      "name": "Powell Industries",
+      "price": 301.00,
+      "chart_pattern": "Flat-Base Breakout / Mega-Order-Spike",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -18,30 +18,13 @@
         "I": true,
         "M": true
       },
-      "note": "Mega Q1-Beat: EPS $1,37, Umsatz $10,25B (+38% YoY), Datacenter +57% auf $5,8B. Q2-Guide $11,2B. +18,61% am 06.05. mit Mega-Volumen, bestes Earnings seit 7 Jahren. Cup-Handle aus Jan-Feb-Korrektur ($266 ATH-Region) gebrochen."
-    },
-    {
-      "ticker": "STRL",
-      "name": "Sterling Infrastructure",
-      "price": 881.98,
-      "chart_pattern": "Cup with Handle Fortsetzung",
-      "signal": "GREEN",
-      "canslim": {
-        "C": true,
-        "A": true,
-        "N": true,
-        "S": true,
-        "L": true,
-        "I": true,
-        "M": true
-      },
-      "note": "Q1 EPS $3,59 vs $2,28 (+57% Beat), Umsatz +92%. FY-Guidance auf $18,40-19,05 angehoben (+72% YoY). 7-Tage +70,8%, Datacenter-Backlog +$1,2 Mrd. Kein Earnings-Risiko bis Aug."
+      "note": "Frischer Breakout +11% am 13.05. nach Bekanntgabe des $400M+ Mega-Data-Center-Auftrags (groesster in Firmengeschichte). Q2 FY26 (05.05.) Rekord-Backlog $1,8 Mrd (+33% YoY), neue Auftraege +97% auf $490M, Book-to-Bill 1,7x. Kein Earnings-Risiko bis August. KLAR am Breakout-Punkt."
     },
     {
       "ticker": "VRT",
       "name": "Vertiv Holdings",
-      "price": 358.92,
-      "chart_pattern": "Cup with Handle bestaetigt",
+      "price": 369.99,
+      "chart_pattern": "Cup-with-Handle Breakout bestaetigt",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -52,13 +35,13 @@
         "I": true,
         "M": true
       },
-      "note": "Neues ATH $358,92 am 06.05. Q1 EPS $1,17 (+15,8% Beat), Adj-EPS +83%, Umsatz +30%. FY-Guidance erneut angehoben. Cup-Handle aus April-Konsolidierung gebrochen. Kein Earnings-Risiko bis Juli."
+      "note": "Cup-Handle-Breakout vom 06.05. bei $358 bestaetigt, jetzt $369,99 = nur +3% vom Pivot = noch klar in Buy-Zone. Q1 EPS $1,17 (+15,8% Beat), Adj-EPS +83%, Umsatz +30%. FY-Guidance angehoben. AI-Datacenter-Kuehlung Marktfuehrer. Kein Earnings-Risiko bis Juli."
     },
     {
       "ticker": "FIX",
       "name": "Comfort Systems USA",
-      "price": 2003.65,
-      "chart_pattern": "Flat Base Breakout / ATH",
+      "price": 2034.63,
+      "chart_pattern": "Flat-Base Breakout / ATH-Fortsetzung",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -69,7 +52,41 @@
         "I": true,
         "M": true
       },
-      "note": "5-Tage-Rally +14%, Marketcap $69B. Q1 EPS $10,51 vs $6,78 (+55% Beat), Umsatz $2,9B (+56% YoY), Backlog rekordhoch. Flat-Base-Breakout aus 5W-Konsolidierung. Earnings ~Juli."
+      "note": "Neues ATH $2.034,63 am 13.05. (+0,91%) -- gesunde Fortsetzung, nicht parabolisch. Q1 EPS $10,51 vs $6,81 (+54% Beat), Umsatz +56,5%. Rekord-Backlog $12,46 Mrd, Cash $1,05 Mrd vs $39M Schulden. +1.240% in 3J, +116% YTD 2026. Analysten Strong Buy. Earnings ~Juli."
+    },
+    {
+      "ticker": "ETN",
+      "name": "Eaton Corporation",
+      "price": 401.51,
+      "chart_pattern": "Post-Earnings Konsolidierung / Pre-Breakout",
+      "signal": "GREEN",
+      "canslim": {
+        "C": true,
+        "A": true,
+        "N": true,
+        "S": true,
+        "L": true,
+        "I": true,
+        "M": true
+      },
+      "note": "Konsolidiert seit Q1-Earnings (05.05.) zwischen $396-422 -- klassische Handle-Bildung kurz vor Breakout. Q1 EPS $2,81 (Beat), Umsatz $7,45 Mrd (+17% YoY). FY26-Guidance auf 9-11% organisches Wachstum angehoben. $1,2 Mrd Capex-Expansion fuer AI-Switchgear. ChartMill 10/10. Kein Earnings-Risiko bis August."
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin",
+      "price": 490.69,
+      "chart_pattern": "Double Bottom / Pre-Breakout am Widerstand",
+      "signal": "GREEN",
+      "canslim": {
+        "C": true,
+        "A": true,
+        "N": true,
+        "S": true,
+        "L": true,
+        "I": true,
+        "M": true
+      },
+      "note": "Double-Bottom-Setup testet wichtigen Widerstand -- bullish Reversal kurz vor Breakout. Q1 (06.05.) EPS $3,56 Beat, Umsatz $1,84 Mrd (+59% YoY), Net Income +109%. Adj-EBITDA-Marge 85% (Rekord). AI-driven Ad-Tech-Marktfuehrer. Analystenziel auf $580 angehoben. Earnings hinter sich -- klar."
     }
   ]
 }
