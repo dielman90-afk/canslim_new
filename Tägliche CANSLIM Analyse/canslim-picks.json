@@ -1,13 +1,13 @@
 {
-  "updated": "2026-05-07",
+  "updated": "2026-05-15",
   "market_signal": "GREEN",
-  "market_note": "S&P 500 7.365,12 ATH (+1,46%) und Nasdaq 25.838,94 ATH (+2,02%) am 06.05. -- beide auf neuen Rekordhochs. Iran-Peace-Deal-Hoffnung beflügelt Markt, Oel rueckläufig. Industrials +2,7%, Tech +2,2% fuehren. AMD-Mega-Beat triggert Halbleiter-Rally. Klar bullish.",
+  "market_note": "S&P 500 7.501,24 ATH (+0,77%), Nasdaq 26.635,22 ATH (+0,88%), Dow 50.063,46 (+0,75%) am 14.05. -- alle drei Indizes auf Rekordhochs. Cisco-Mega-Beat (+17%) treibt AI-Infrastruktur-Rally, US-China-Summit positiv. Klar bullish.",
   "picks": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "price": 421.39,
-      "chart_pattern": "Cup with Handle Breakout",
+      "ticker": "CSCO",
+      "name": "Cisco Systems",
+      "price": 119.36,
+      "chart_pattern": "Fresh ATH Breakout aus Multi-Jahres-Base",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -18,13 +18,13 @@
         "I": true,
         "M": true
       },
-      "note": "Mega Q1-Beat: EPS $1,37, Umsatz $10,25B (+38% YoY), Datacenter +57% auf $5,8B. Q2-Guide $11,2B. +18,61% am 06.05. mit Mega-Volumen, bestes Earnings seit 7 Jahren. Cup-Handle aus Jan-Feb-Korrektur ($266 ATH-Region) gebrochen."
+      "note": "Q3 EPS $1,06 vs $1,04, Rev $15,84B vs $15,56B. +17% am 14.05., bestes Volumen seit 2011. AI-Order-Guide FY26 auf $9B (von $5B) angehoben. Networking-Segment +25%. 6 Analysten-Upgrades. Top-Pick fresh breakout."
     },
     {
-      "ticker": "STRL",
-      "name": "Sterling Infrastructure",
-      "price": 881.98,
-      "chart_pattern": "Cup with Handle Fortsetzung",
+      "ticker": "AVGO",
+      "name": "Broadcom",
+      "price": 439.79,
+      "chart_pattern": "52W-Hoch Breakout",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -35,13 +35,13 @@
         "I": true,
         "M": true
       },
-      "note": "Q1 EPS $3,59 vs $2,28 (+57% Beat), Umsatz +92%. FY-Guidance auf $18,40-19,05 angehoben (+72% YoY). 7-Tage +70,8%, Datacenter-Backlog +$1,2 Mrd. Kein Earnings-Risiko bis Aug."
+      "note": "+5,5% am 14.05. auf neues 52W-Hoch. 2nm AI-Chip-Partnerschaft mit Meta. Wells Fargo PT $545, Citi/Wolfe $500. AI-Rev-Run-Rate 30-40% ueber Erwartung. +26% YTD."
     },
     {
       "ticker": "VRT",
       "name": "Vertiv Holdings",
-      "price": 358.92,
-      "chart_pattern": "Cup with Handle bestaetigt",
+      "price": 376.23,
+      "chart_pattern": "Cup-Handle-Fortsetzung, neues ATH",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -52,13 +52,13 @@
         "I": true,
         "M": true
       },
-      "note": "Neues ATH $358,92 am 06.05. Q1 EPS $1,17 (+15,8% Beat), Adj-EPS +83%, Umsatz +30%. FY-Guidance erneut angehoben. Cup-Handle aus April-Konsolidierung gebrochen. Kein Earnings-Risiko bis Juli."
+      "note": "Intraday +6,5% am 14.05. auf neues ATH 376,23. Q1 Adj-EPS +83%, Rev +30% auf $2,65B. FY-Guide erneut angehoben. Datacenter-Infrastruktur-Leader."
     },
     {
-      "ticker": "FIX",
-      "name": "Comfort Systems USA",
-      "price": 2003.65,
-      "chart_pattern": "Flat Base Breakout / ATH",
+      "ticker": "PANW",
+      "name": "Palo Alto Networks",
+      "price": 236.33,
+      "chart_pattern": "ATH-Breakout ueber 223,64",
       "signal": "GREEN",
       "canslim": {
         "C": true,
@@ -69,7 +69,52 @@
         "I": true,
         "M": true
       },
-      "note": "5-Tage-Rally +14%, Marketcap $69B. Q1 EPS $10,51 vs $6,78 (+55% Beat), Umsatz $2,9B (+56% YoY), Backlog rekordhoch. Flat-Base-Breakout aus 5W-Konsolidierung. Earnings ~Juli."
+      "note": "+5,4% am 14.05. ueber ATH 223,64. Jefferies PT auf $265. Anthropic waehlt PANW fuer AI-Defense. ACHTUNG: Earnings 21.05. nur 1 Woche -- Position kleiner halten."
+    },
+    {
+      "ticker": "YETI",
+      "name": "YETI Holdings",
+      "price": 41.99,
+      "chart_pattern": "Fresh Breakout aus Multi-Monats-Base",
+      "signal": "GREEN",
+      "canslim": {
+        "C": true,
+        "A": true,
+        "N": true,
+        "S": true,
+        "L": false,
+        "I": true,
+        "M": true
+      },
+      "note": "+9,55% Premarket 14.05. nach Q1 EPS $0,26 vs $0,18 (+44% Beat). Rev $380,4M vs $374,7M. FY26-EPS-Guide auf $2,83-2,89 angehoben, Op-Margin 8-10%. Buyback erhoeht. Bestes Risk-Reward der Liste."
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology",
+      "price": 182.58,
+      "chart_pattern": "Ausbruch ueber ATH 175,80",
+      "signal": "GREEN",
+      "canslim": {
+        "C": true,
+        "A": true,
+        "N": true,
+        "S": true,
+        "L": true,
+        "I": true,
+        "M": true
+      },
+      "note": "+8,18% recent, neues ATH ueber 182. AI-Rev verdoppelt YoY. Custom-ASIC-Geschaeft beschleunigt, AWS-Trainium-Wins. ASIC-Co-Leader neben AVGO."
     }
+  ],
+  "excluded": [
+    {"ticker": "AMD", "reason": "Extended -- 456 ATH -> 445 nach +18,6% Earnings-Pop am 06.05."},
+    {"ticker": "STRL", "reason": "Ueberkauft -- +70% in 7 Tagen"},
+    {"ticker": "FIX", "reason": "Weit ueber Pivot -- ATH 2.032 am 11.05."},
+    {"ticker": "CRWD", "reason": "Extended -- +45% in 30 Tagen"},
+    {"ticker": "NVDA", "reason": "Earnings 20.05. -- nur 5 Tage Earnings-Risiko"},
+    {"ticker": "PLTR", "reason": "Q1-Miss US-Commercial-Segment"},
+    {"ticker": "TSLA", "reason": "Kein klares Breakout-Setup"},
+    {"ticker": "ANET", "reason": "16% unter ATH -- noch nicht am Breakout-Punkt"},
+    {"ticker": "APP", "reason": "Noch unter Dez-ATH 733 -- kein klares Breakout"}
   ]
 }
