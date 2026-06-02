@@ -108,6 +108,19 @@ def main() -> int:
     project_dir = Path(__file__).parent.resolve()
     files = sys.argv[1:] or ["canslim-picks.json"]
 
+    # ------------------------------------------------------------------
+    # DEAKTIVIERT (Option 1): Der taegliche Report-Lauf ist ab sofort der
+    # EINZIGE Schreiber auf main. Dieser Absicherungs-Push wuerde sonst die
+    # frischen Picks mit einer veralteten lokalen canslim-picks.json
+    # ueberschreiben. Zum bewussten Reaktivieren: CANSLIM_ENABLE_PUSH=1 setzen.
+    # ------------------------------------------------------------------
+    if os.environ.get("CANSLIM_ENABLE_PUSH") != "1":
+        print(
+            "DEAKTIVIERT: Daily-Push uebersprungen -- der Report-Lauf ist der "
+            "einzige Schreiber auf main. Zum Reaktivieren CANSLIM_ENABLE_PUSH=1 setzen."
+        )
+        return 0
+
     try:
         token = load_token(project_dir)
     except FileNotFoundError as e:

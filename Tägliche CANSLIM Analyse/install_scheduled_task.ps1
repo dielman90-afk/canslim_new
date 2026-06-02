@@ -1,5 +1,15 @@
 # ============================================================
 #  install_scheduled_task.ps1
+#
+#  VERALTET (Option 1, 02.06.2026):
+#  Dieser Absicherungs-Push wird NICHT MEHR verwendet. Der taegliche
+#  Report-Lauf ist ab sofort der EINZIGE Schreiber auf main. Der alte
+#  Task hat die frischen Picks mit einer veralteten lokalen
+#  canslim-picks.json ueberschrieben. Bitte NICHT neu registrieren --
+#  zum Entfernen 'uninstall_scheduled_task.ps1' ausfuehren.
+#  (push_to_github.py ist zusaetzlich abgesichert und pusht nur noch,
+#   wenn CANSLIM_ENABLE_PUSH=1 gesetzt ist.)
+#
 #  Registriert den Windows-Aufgabenplaner-Task fuer den
 #  taeglichen GitHub-Push der CANSLIM-Datei.
 #
