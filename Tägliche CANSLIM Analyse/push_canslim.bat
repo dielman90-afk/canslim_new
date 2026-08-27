@@ -9,6 +9,13 @@ REM  Absicherung, falls der Cowork-Push nicht durchgekommen ist.
 REM
 REM  Das Skript ist idempotent: wenn die Datei im Repo schon
 REM  identisch ist, macht GitHub keinen neuen Commit.
+REM
+REM  WICHTIG: push_to_github.py prueft canslim-picks.json VOR dem
+REM  Push gegen den Datenvertrag und gegen das Datum des bereits
+REM  veroeffentlichten Standes. Exit-Code 3 = Pruefung fehlgeschlagen,
+REM  es wurde NICHTS gepusht (Grund steht im Log). Das verhindert,
+REM  dass dieser taegliche Task eine liegengebliebene alte Datei ueber
+REM  den aktuellen Stand schreibt, wenn die Analyse-Routine aussetzt.
 REM ============================================================
 
 REM In den Projektordner wechseln (egal von wo gestartet)
