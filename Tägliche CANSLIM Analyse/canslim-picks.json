@@ -1,75 +1,85 @@
 {
-  "updated": "2026-05-07",
-  "market_signal": "GREEN",
-  "market_note": "S&P 500 7.365,12 ATH (+1,46%) und Nasdaq 25.838,94 ATH (+2,02%) am 06.05. -- beide auf neuen Rekordhochs. Iran-Peace-Deal-Hoffnung beflügelt Markt, Oel rueckläufig. Industrials +2,7%, Tech +2,2% fuehren. AMD-Mega-Beat triggert Halbleiter-Rally. Klar bullish.",
+  "updated": "2026-09-17",
+  "run": 99,
+  "market_signal": "GELB",
+  "market_note": "Stand 17.09.2026 (nach US-Handelsstart). Die Fed hat am 16.09. den Leitzins wie erwartet um 25 Basispunkte auf 3,75-4,00% angehoben -- die erste Anhebung seit ueber drei Jahren. Der Dot-Plot ist hawkish: 16 von 18 Mitgliedern erwarten laut Berichten eine weitere Anhebung im laufenden Jahr. Markt reagierte gemischt: Dow -1,21%, S&P 500 -0,45% auf 7.551,81, Nasdaq -0,01% auf 25.978,42 am 16.09.; am 17.09. Erholung, S&P bei rund 7.596 Punkten (+0,59%). Damit steht der S&P rund 2,6% unter seinem Allzeithoch vom 13.08. (7.798,99). MARKTBREITE HAT SICH GEGENUEBER LAUF 98 (08.09.) DEUTLICH VERSCHLECHTERT: Nur noch rund 33% der S&P-500-Titel notieren ueber ihrer 50-Tage-Linie (Lauf 98: 48,5%), rund 53% ueber der 200-Tage-Linie (Lauf 98: 65%). Die Zahl neuer 52-Wochen-Tiefs bei NYSE-Titeln ist laut Berichten auf 331 gestiegen -- ein Niveau, das zuletzt waehrend der Korrektur im Fruehjahr erreicht wurde. Die NYSE-Vorlauf/Ruecklauf-Linie hat eine vorherige Unterstuetzung gebrochen, der McClellan-Oszillator liegt auf ueberverkauftem Niveau. Die Fuehrerschaft ist eng: von 16 S&P-500-Titeln auf einem 52-Wochen-Hoch (15.09.) stammen 9 aus dem Energiesektor -- ein defensiv-zyklisches, kein breites Wachstumssignal. FAZIT: Marktampel bleibt GELB, aber mit deutlich erhoehtem Risiko gegenueber Lauf 98 -- die Divergenz zwischen Indexniveau und Marktbreite hat sich verschaerft, und der hawkishe Fed-Ausblick liefert weiteren Gegenwind. Nur mit kleiner Positionsgroesse und strikter Trigger-/Volumendisziplin kaufen; ein weiterer Bruch der Marktbreite unter 30% oder neue Indextiefs waeren ein Kandidat fuer eine Abstufung auf ROT beim naechsten Lauf.",
+  "picks_note": "Nur 2 Picks (HEI, CHEF) plus 1 Watchlist-Titel (KNSA) -- deutlich weniger als die 5 aus Lauf 98, aus zwei Gruenden. Erstens: Von den 5 Picks aus Lauf 98 sind DELL, MRX und TECK innerhalb von zwei Wochen technisch gebrochen (siehe filtered_out) -- genau die Spaetstadium- und Volumenrisiken, vor denen Lauf 98 bereits gewarnt hatte, haben sich realisiert. Zweitens, methodisch: Diese Runde stand kein Zugriff auf das bisher genutzte Screening-Tool mit RS-Raengen und Up/Down-Volumen-Analyse zur Verfuegung -- der direkte Abruf gaengiger Finanzseiten war technisch blockiert (siehe Hinweis in filtered_out). Die Auswahl stuetzt sich ausschliesslich auf oeffentliche Web-Suchergebnisse und wurde entsprechend konservativ gehalten, statt unsichere Kandidaten mit erfundenen Kennzahlen aufzufuellen. HEI (Heico) und CHEF (Chefs' Warehouse) sind beide KURZ VOR DEM AUSBRUCH, beide mit frischen positiven Katalysatoren (HEI: Rekord-Quartalsbericht 01.09.; CHEF: Kurszielanhebung TD Cowen 11.09.), beide fundamental unkorreliert (Luftfahrt/Elektronik vs. Lebensmitteldistribution) und beide in Sektoren, die nicht von der engen Energiefuehrerschaft des Marktes abhaengen. UMSETZUNG: Buy-on-Trigger fuer beide -- nicht vorab kaufen, erst bei Tagesschluss ueber dem jeweiligen Pivot, und wegen der verschaerften Marktampel nur mit halber Positionsgroesse. KNSA bleibt auf der Watchlist, weil sich die Basis seit Lauf 98 verbreitert statt verengt hat.",
   "picks": [
     {
-      "ticker": "AMD",
-      "name": "Advanced Micro Devices",
-      "price": 421.39,
-      "chart_pattern": "Cup with Handle Breakout",
-      "signal": "GREEN",
+      "ticker": "HEI",
+      "company": "HEICO Corporation",
+      "sector": "Industrie / Luftfahrt-Zulieferer und Elektronik",
+      "price": 356.36,
+      "pattern": "kurz_vor_pivot",
+      "chart_pattern": "Basis dicht unter dem 52-Wochen-Hoch",
+      "status": "KURZ VOR DEM AUSBRUCH -- 3,6% unter dem 52-Wochen-Hoch von 369,48 USD, frischer Rekord-Quartalsbericht als Katalysator.",
+      "setup": "52-Wochen-Hoch (= Pivot) 369,48 USD, Kurs zuletzt rund 356,36 USD, damit 3,6% darunter. Die Q3-Zahlen (Geschaeftsjahr 2026) kamen am 01.09.2026 -- seither haelt sich der Kurs nahe dem Hoch, keine erkennbare Abgabe trotz starker Zahlen. HINWEIS ZUR DATENLAGE: In dieser Runde standen keine institutionellen Volumen- oder RS-Rang-Daten zur Verfuegung (Tooling-Einschraenkung, siehe filtered_out); die Einstufung stuetzt sich auf oeffentlich verfuegbare Kurs- und Fundamentaldaten aus Web-Suchergebnissen, nicht auf einen Live-Kursabruf.",
+      "buy_trigger": "Kauf erst bei TAGESSCHLUSS ueber 369,48 USD, nach Moeglichkeit mit ueberdurchschnittlichem Volumen. Kaufzone 369,48-388,00 USD (Pivot bis +5%). Stop 7-8% unter dem Einstieg. Wegen der verschaerften Marktampel (GELB) nur halbe Positionsgroesse.",
+      "note": "Q3 Geschaeftsjahr 2026 (Quartal bis Ende Juli, berichtet 01.09.): Rekordumsatz 1.413,1 Mio USD, +23% gegen Vorjahr. Nettogewinn 235,4 Mio USD (+33%), Gewinn je Aktie 1,67 USD gegen 1,26 USD (+32,5%), rund 11% ueber der Analystenschaetzung von 1,51 USD. Operatives Ergebnis +34%, operative Marge auf 25,1% ausgeweitet (von 23,1%). Beide Segmente zweistellig gewachsen: Flight Support Group +12%, Electronic Technologies Group +18% organisch. Operativer Cashflow +49%. HEICO ist Nischenzulieferer fuer Ersatzteile in der zivilen Luftfahrt (PMA-Teile) und fuer Elektronik/Verteidigung -- profitiert von hoher Flugzeugauslastung und vom Rekord-Auftragspolster der Verteidigungsindustrie (Branchenbacklog laut aktuellen Berichten ueber 450 Mrd USD). RISIKEN: (1) Bewertung nicht guenstig (KGV historisch im hohen 30er-Bereich). (2) Naechster Berichtstermin diese Runde nicht verifiziert -- vor Kauf pruefen, ob ein Q4/Jahresbericht (typischerweise Ende November/Anfang Dezember) ins Kauffenster faellt. (3) Institutionelle Kaufbestaetigung (Volumen) wurde diese Runde nicht unabhaengig geprueft.",
       "canslim": {
-        "C": true,
-        "A": true,
-        "N": true,
-        "S": true,
-        "L": true,
-        "I": true,
-        "M": true
-      },
-      "note": "Mega Q1-Beat: EPS $1,37, Umsatz $10,25B (+38% YoY), Datacenter +57% auf $5,8B. Q2-Guide $11,2B. +18,61% am 06.05. mit Mega-Volumen, bestes Earnings seit 7 Jahren. Cup-Handle aus Jan-Feb-Korrektur ($266 ATH-Region) gebrochen."
+        "C": "ERFUELLT, deutlich. Quartalsgewinn je Aktie 1,67 USD gegen 1,26 USD im Vorjahr, +32,5% -- ueber der 25%-Schwelle, dazu ein Beat von rund 11% gegen die Analystenschaetzung.",
+        "A": "PLAUSIBEL ERFUELLT. HEICO gilt laut fruehreren Laeufen dieses Berichts als bestaendiger langfristiger Fuehrer; Nettogewinn im aktuellen Quartal auf Rekordniveau (+33%). Exakte mehrjaehrige Jahresreihen wurden diese Runde nicht unabhaengig nachgeprueft.",
+        "N": "ERFUELLT. Frischer Rekordquartalsbericht (01.09.) mit Beat auf allen Ebenen und Margenausweitung auf 25,1%; der Kurs haelt sich seither dicht am 52-Wochen-Hoch.",
+        "S": "ERFUELLT. Quartalsumsatz +23% gegen Vorjahr auf Rekordniveau 1.413,1 Mio USD -- ueber der 20-25%-Schwelle.",
+        "L": "PLAUSIBEL, nicht unabhaengig verifiziert. Kurs nur 3,6% unter dem 52-Wochen-Hoch spricht fuer relative Staerke; ein exakter RS-Rang lag diese Runde nicht vor.",
+        "I": "NICHT VERIFIZIERT diese Runde -- keine Up/Down-Volumendaten verfuegbar. Als schwaches Indiz: keine erkennbare Abgabe nach den starken Zahlen.",
+        "M": "NICHT ERFUELLT -- Marktampel GELB, diese Runde mit verschaerften Warnsignalen. Daher nur halbe Positionsgroesse und strikte Trigger-Disziplin."
+      }
     },
     {
-      "ticker": "STRL",
-      "name": "Sterling Infrastructure",
-      "price": 881.98,
-      "chart_pattern": "Cup with Handle Fortsetzung",
-      "signal": "GREEN",
+      "ticker": "CHEF",
+      "company": "The Chefs' Warehouse, Inc.",
+      "sector": "Basiskonsum / Lebensmittel-Distribution",
+      "price": 114.98,
+      "pattern": "kurz_vor_pivot",
+      "chart_pattern": "Basis dicht unter dem Allzeithoch",
+      "status": "KURZ VOR DEM AUSBRUCH -- rund 2,3% unter dem Pivot 117,65 USD, Analysten heben Kursziele in der Naeherungszone an.",
+      "setup": "Pivot 117,65 USD (Allzeithoch vom 01.09.2026). Kurs zuletzt rund 114,98 USD, ca. 2,3% darunter. TD Cowen hat das Kursziel am 11.09. auf 131,00 USD angehoben (Buy) -- rund 14% ueber dem aktuellen Kurs. Zacks fuehrt CHEF mit Rang 1 (Strong Buy) und positiven Gewinnrevisionen. HINWEIS ZUR DATENLAGE: wie bei HEI keine eigene Volumen-/RS-Rang-Pruefung moeglich diese Runde; Kursstand stammt aus oeffentlich zugaenglichen Suchergebnissen, nicht aus einem Live-Kursabruf.",
+      "buy_trigger": "Kauf erst bei TAGESSCHLUSS ueber 117,65 USD, nach Moeglichkeit mit erhoehtem Volumen. Kaufzone 117,65-123,53 USD (Pivot bis +5%). Stop 7-8% unter dem Einstieg. Wegen Marktampel GELB nur halbe Positionsgroesse.",
+      "note": "Q2/2026 (Quartal bis 26.06., letzter bestaetigter Bericht): Nettoumsatz 1,169 Mrd USD, +12,9% gegen Vorjahr, organisch +12,2%. Bruttomarge weitet sich aus (+49 Basispunkte), Jahresprognose wurde nach dem Quartal auf 4,5-4,6 Mrd USD angehoben. RISIKO: Das Umsatzwachstum von 12,9% liegt unter der klassischen CANSLIM-Schwelle von 20-25% -- CHEF ist primaer eine Margen-/Konsolidierungs-Story in der Lebensmitteldistribution, kein Hyperwachstumswert. Naechster Bericht (Q3) wird Anfang November erwartet -- vor Kauf pruefen, ob das Datum ausserhalb des Kauffensters liegt.",
       "canslim": {
-        "C": true,
-        "A": true,
-        "N": true,
-        "S": true,
-        "L": true,
-        "I": true,
-        "M": true
-      },
-      "note": "Q1 EPS $3,59 vs $2,28 (+57% Beat), Umsatz +92%. FY-Guidance auf $18,40-19,05 angehoben (+72% YoY). 7-Tage +70,8%, Datacenter-Backlog +$1,2 Mrd. Kein Earnings-Risiko bis Aug."
-    },
-    {
-      "ticker": "VRT",
-      "name": "Vertiv Holdings",
-      "price": 358.92,
-      "chart_pattern": "Cup with Handle bestaetigt",
-      "signal": "GREEN",
-      "canslim": {
-        "C": true,
-        "A": true,
-        "N": true,
-        "S": true,
-        "L": true,
-        "I": true,
-        "M": true
-      },
-      "note": "Neues ATH $358,92 am 06.05. Q1 EPS $1,17 (+15,8% Beat), Adj-EPS +83%, Umsatz +30%. FY-Guidance erneut angehoben. Cup-Handle aus April-Konsolidierung gebrochen. Kein Earnings-Risiko bis Juli."
-    },
-    {
-      "ticker": "FIX",
-      "name": "Comfort Systems USA",
-      "price": 2003.65,
-      "chart_pattern": "Flat Base Breakout / ATH",
-      "signal": "GREEN",
-      "canslim": {
-        "C": true,
-        "A": true,
-        "N": true,
-        "S": true,
-        "L": true,
-        "I": true,
-        "M": true
-      },
-      "note": "5-Tage-Rally +14%, Marketcap $69B. Q1 EPS $10,51 vs $6,78 (+55% Beat), Umsatz $2,9B (+56% YoY), Backlog rekordhoch. Flat-Base-Breakout aus 5W-Konsolidierung. Earnings ~Juli."
+        "C": "PLAUSIBEL ERFUELLT. Zacks fuehrt CHEF mit Rang 1 (Strong Buy) und positiven Gewinnrevisionen; die exakte Quartalszahl fuer das laufende Quartal lag diese Runde nicht vor.",
+        "A": "ERFUELLT laut letztem bestaetigten Quartal. Bruttomarge waechst schneller als der Umsatz, Jahresprognose wurde nach Q2 angehoben -- Zeichen konsistenten Gewinnwachstums.",
+        "N": "ERFUELLT. Kurszielanhebung eines grossen Brokers (TD Cowen auf 131 USD, 11.09.) unmittelbar vor einem moeglichen Ausbruch, plus zuvor angehobene Jahresprognose.",
+        "S": "TEILWEISE ERFUELLT -- schwaechstes Kriterium. Quartalsumsatz +12,9%, unter der 20-25%-Schwelle. Entlastend: Die Marge waechst schneller als der Umsatz, und das Tempo hat sich in den Vorquartalen beschleunigt.",
+        "L": "PLAUSIBEL. Kurs nahe am Allzeithoch; kein exakter RS-Rang diese Runde verfuegbar.",
+        "I": "NICHT VERIFIZIERT diese Runde -- keine Up/Down-Volumendaten verfuegbar. Die Kurszielanhebung eines grossen Brokers ist ein schwaches Indiz fuer institutionelles Interesse.",
+        "M": "NICHT ERFUELLT -- Marktampel GELB. Halbe Positionsgroesse."
+      }
     }
+  ],
+  "watchlist": [
+    {
+      "ticker": "KNSA",
+      "company": "Kiniksa Pharmaceuticals International plc",
+      "sector": "Gesundheit / Biopharma",
+      "price": 75.11,
+      "pct_from_ath": -9.1,
+      "status": "KURZ VOR DEM AUSBRUCH, aber Basis verliert an Straffheit -- Abstand zum 52-Wochen-Hoch hat sich seit Lauf 98 (6,1%) auf rund 9% vergroessert.",
+      "setup": "52-Wochen-Hoch 82,65 USD, Kurs zuletzt (16.09.) 75,11 USD. In Lauf 98 (08.09.) lag der Abstand noch bei 6,1% -- der Kurs hat sich seither also weiter vom Pivot entfernt statt sich zu verengen, tendenziell ein Schwaechesignal fuer eine 'kurz vor Ausbruch'-Einstufung. Fundamental laut Lauf 98 weiterhin stark (ARCALYST-Wachstum, angehobene Jahresprognose) -- diese Runde nicht neu verifiziert.",
+      "reason": "AUSSCHLUSSGRUND fuer Picks diese Runde: Die Basis wird breiter statt enger, und ohne aktuelle Volumen-/Akkumulationsdaten laesst sich nicht verifizieren, ob das ein normaler Ruecksetzer oder beginnende Verteilung ist. Auf Watchlist behalten, bei erneuter Annaeherung an das Hoch mit Volumenbestaetigung erneut pruefen.",
+      "canslim": {
+        "C": "Laut Lauf 98 erfuellt (+30% Quartalsgewinn je Aktie), diese Runde nicht neu verifiziert.",
+        "A": "Laut Lauf 98 erfuellt (Rueckkehr in die Gewinnzone, Jahresumsatz +60%).",
+        "N": "Laut Lauf 98 erfuellt (ARCALYST-Prognose angehoben, KPL-387 in Phase 3).",
+        "S": "Laut Lauf 98 erfuellt (+55% Quartalsumsatz), diese Runde nicht neu verifiziert.",
+        "L": "Fraglich -- der Kurs hat sich vom Hoch weiter entfernt statt sich anzunaehern.",
+        "I": "NICHT VERIFIZIERT diese Runde.",
+        "M": "NICHT ERFUELLT -- Marktampel GELB."
+      }
+    }
+  ],
+  "filtered_out": [
+    "GEBROCHENER AUSBRUCH: DELL -- Lauf 98 als frischer Ausbruch bei 524 USD gefuehrt (Pivot 514 USD). Nach der als riskant markierten V-foermigen Spaetstadium-Basis kam die gewarnte Korrektur: Kurs fiel bis Anfang September auf rund 425 USD, RSI unter 45, bearischer MACD-Crossover. Der Ausbruch ist gescheitert -- genau das Risiko, das Lauf 98 als groesste Schwaeche des Picks benannt hatte. Neue Basis abwarten.",
+    "GEBROCHENER AUSBRUCH: MRX -- Lauf 98 mit 78,27 USD am oberen Rand der Kaufzone (Pivot 75,40 USD) gefuehrt. Bis zum 15.09. auf 70,82 USD zurueckgefallen, damit unter dem Pivot und ausserhalb der Kaufzone. Fundamental laut aktuellen Berichten weiter stark (Analysten mehrheitlich auf Kaufempfehlung), aber technisch fuer diese Runde kein Kauf.",
+    "GEBROCHENER AUSBRUCH / NEGATIVE NEWS: TECK -- Lauf 98 'direkt am Breakout-Punkt' bei ca. 72 USD (Pivot 71,93 USD) gefuehrt. Aktuell nur noch rund 63-65 USD, damit deutlich unter den Pivot zurueckgefallen. Dazu Berichte ueber eine gesenkte Produktionsprognose fuer die Schluesselmine Quebrada Blanca. Kein aktueller Kaufkandidat.",
+    "GEWINNWACHSTUM UNTER SCHWELLE + NEGATIVER AUSBLICK: ACGL (Arch Capital) -- nahe am 52-Wochen-Hoch, aber Quartalsgewinn je Aktie nur +17,6% (unter der 25%-Schwelle), und Analysten erwarten fuer das naechste Quartal einen Gewinnrueckgang von rund 32% gegenueber Vorjahr. C- und A-Kriterium beide nicht ueberzeugend.",
+    "ZYKLIK-REGEL: XOM (ExxonMobil) -- einer von 9 Energiewerten unter den 16 S&P-500-Titeln am 52-Wochen-Hoch (15.09.), Nettogewinn im Q2 verdoppelt. Wie schon bei der Raffineriegruppe in Lauf 98: Der Gewinnsprung stammt aus dem oelpreisgetriebenen Zyklus, nicht aus stetigem strukturellem Wachstum. Kein A-Kriterium im CANSLIM-Sinn.",
+    "TIEF IN DER KORREKTUR, KEIN PIVOT IN SICHT: VRT (Vertiv) rund 27% unter dem 52-Wochen-Hoch 379,94 USD; STRL (Sterling Infrastructure) rund 37% unter dem Mai-Hoch 881,98 USD trotz weiter starker operativer Kennzahlen (E-Infrastruktur-Umsatz +192%); FIX (Comfort Systems) rund 22% unter dem 52-Wochen-Hoch 2.073,99 USD. Alle drei ehemaligen Kern-Picks dieses Berichts befinden sich in einer laengeren Konsolidierung nach ihren Mega-Rallyes im Fruehjahr -- fundamental teils weiter stark, aber technisch weit vom Pivot entfernt. Bei neuer Basisbildung erneut pruefen.",
+    "UMSATZ ZU SCHWACH + MARGENDRUCK: RMD (ResMed) -- Analysten-Upgrade (RBC) und +5% Tagesbewegung, aber Umsatzwachstum nur +8,6% und Belastung durch einen Produktrueckruf. S-Kriterium klar verfehlt.",
+    "UEBERDEHNT: MU (Micron) -- herausragende Zahlen (Umsatz +345,7%, EPS-Beat +23,8%), aber laut Berichten bereits rund +599% auf 12 Monate und +242% im laufenden Jahr gelaufen. Genau die Art von 'bereits weit gelaufenem Setup', die dieser Bericht konsequent aussortiert -- kein Pivot in Reichweite, sondern ein extrem ueberdehnter Titel.",
+    "SCHWACHE REAKTION NACH ZAHLEN: AVGO (Broadcom) -- Q3-Zahlen ueber den Schaetzungen, aber die Umsatzprognose des Managements enttaeuschte und loeste laut Berichten einen Sektor-Sell-off bei Halbleitertiteln aus. Keine Ausbruchsbestaetigung.",
+    "KEIN PIVOT IN REICHWEITE: SNOW (Snowflake) -- starker Ausbruchstag am 02.09. (+24% nach Zahlen, Produktumsatz +37%), aber der Kurs konsolidiert seither bei 318-329 USD, rund 16% unter dem 52-Wochen-Hoch von 384,56 USD. Kein Pivot in unmittelbarer Reichweite.",
+    "METHODIK-HINWEIS DIESER RUNDE: Im Gegensatz zu frueheren Laeufen (z. B. Lauf 98 mit einem eigenen Screening-Tool ueber 6.488 Ticker, RS-Raengen und Up/Down-Volumen-Analyse) stand diese Runde nur oeffentliche Web-Suche zur Verfuegung -- der direkte Abruf gaengiger Finanzseiten (u.a. stockanalysis.com, marketbeat.com, finance.yahoo.com, cnbc.com, investing.com, stocktitan.net) war technisch blockiert (Netzwerk-Egress-Sperre). Alle Kursangaben stammen aus Suchergebnis-Schnipseln unterschiedlichen Datums (meist 08.-16.09.) und wurden nicht durch einen unabhaengigen Live-Kursabruf verifiziert. Die Auswahl ist entsprechend konservativer als sonst gehalten; RS-Raenge und Volumenquoten wurden bewusst nicht erfunden, sondern als 'nicht verifiziert' gekennzeichnet."
   ]
 }

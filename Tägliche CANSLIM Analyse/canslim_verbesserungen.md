@@ -1,5 +1,32 @@
 # CANSLIM-Bericht Verbesserungslog
 
+## Lauf 99 -- 17. September 2026 (Donnerstag)
+
+### Was gut lief
+- Slack-Direktnachricht erfolgreich gesendet (ca. 3.300 Zeichen, ASCII-only, Format bewaehrt)
+- canslim-picks.json erfolgreich validiert (validate_picks.py + JSON-Schema) und per GitHub-API direkt auf main im Repo CANSLIM-picks aktualisiert
+- Drei Lauf-98-Picks (DELL, MRX, TECK) korrekt als gebrochen erkannt und konsequent aussortiert, statt stur an alten Picks festzuhalten
+- Marktbreiten-Verschlechterung (33% vs. 48,5% ueber 50-Tage-Linie) sauber recherchiert und in Marktampel-Begruendung eingearbeitet
+- Ehrlich mit Datenluecken umgegangen: keine erfundenen RS-Raenge/Volumenquoten, stattdessen "NICHT VERIFIZIERT" gekennzeichnet
+
+### Probleme (KRITISCH fuer naechsten Lauf)
+- **Diese Session lief in einer anderen Infrastruktur als die bisherigen Laeufe.** Kein Zugriff auf das bisher genutzte Screening-Tool (6.000+ Ticker, RS-Raenge, Up/Down-Volumen-Analyse laut Methodik-Absatz in Lauf 98). Stattdessen nur WebSearch (Suchergebnis-Schnipsel) verfuegbar.
+- **WebFetch war fuer praktisch alle Finanzseiten durch eine Netzwerk-Egress-Sperre blockiert**: stockanalysis.com, marketbeat.com, finance.yahoo.com, cnbc.com, investing.com, stocktitan.net -- alle mit EGRESS_BLOCKED-Fehler. Nur WebSearch-Schnipsel (oft mit uneinheitlichem Datum, teils widerspruechliche Zahlen aus verschiedenen Quellen) standen zur Verfuegung.
+- Keine eigene Berechnung von RS-Rang, Up/Down-Volumen, Distributionstagen oder Basis-Tiefe moeglich -- alle diese Werte wurden in Lauf 99 explizit als "nicht verifiziert" markiert statt geschaetzt.
+- Kein Python/Bash-Zugriff auf lokale Marktdaten-APIs; .github_token.txt-Mechanismus von push_to_github.py nicht genutzt, stattdessen GitHub-MCP-Tool (mcp__github__create_or_update_file) fuer den Push auf main verwendet -- funktioniert, aber ein anderer Pfad als das bisherige Skript.
+- Nur 2 Picks (HEI, CHEF) statt der ueblichen 4-5 -- teils Marktlage (GELB verschaerft), teils Vorsicht wegen der duenneren Datenbasis.
+
+### Verbesserungen fuer naechsten Lauf (naechster Handelstag)
+1. **INFRASTRUKTUR ZUERST PRUEFEN:** Vor der Recherche testen, ob WebFetch auf Finanzseiten funktioniert (z. B. ein kurzer Testabruf von stockanalysis.com). Wenn blockiert: wie in Lauf 99 auf WebSearch-Schnipsel ausweichen und Datenluecken transparent kennzeichnen, keine Kennzahlen erfinden.
+2. **POST-TRIGGER-PRUEFUNG (KRITISCH):** HEI (Pivot 369,48 USD) und CHEF (Pivot 117,65 USD) -- pruefen, ob einer der beiden Tagesschluss-Trigger inzwischen ausgeloest hat, und falls ja, ob die Kaufzone (Pivot bis +5%) noch offen ist oder bereits ueberschritten wurde.
+3. **KNSA (Kiniksa)** -- pruefen, ob sich die Basis wieder verengt (Kurs naehert sich erneut dem Hoch von 82,65 USD) oder weiter ausweitet (dann ganz aus dem Pool nehmen).
+4. **MARKTAMPEL-MONITORING (KRITISCH):** Marktbreite (Anteil S&P-Titel ueber 50-Tage-Linie) war in Lauf 99 bei ca. 33% -- bei weiterem Rueckgang unter 30% oder neuen Index-Tiefs auf ROT abstufen. FOMC-Nachwirkungen (naechste Sitzung 27./28.10.) und Treasury-Renditen weiter beobachten.
+5. **Frueher aussortierte Titel bei neuer Basis erneut pruefen:** VRT, STRL, FIX (alle 22-37% unter ihren Fruehjahrs-Hochs, fundamental teils weiter stark) -- sobald sich eine neue, engere Basis bildet, erneut screenen.
+6. **Datenquellen (funktionierend in Lauf 99):** WebSearch allgemein zuverlaessig fuer Kurse, Analysten-Kursziele und Ergebnisberichte, auch wenn Praezision (exaktes Tagesdatum, Intraday-Kurs) eingeschraenkt war.
+7. **GitHub-Push (Lauf 99):** Erfolgreich per mcp__github__create_or_update_file direkt auf main im Repo CANSLIM-picks (nicht ueber push_to_github.py/Token-Datei). JSON vorher lokal mit validate_picks.py + canslim-picks.schema.json geprueft -- 0 Fehler, 0 Warnungen.
+8. **Slack:** DM per mcp__Slack__slack_send_message an die eigene User-ID (Selbst-DM) gesendet, nicht ueber ein separates Bot-Setup. Funktioniert direkt aus der Session heraus.
+
+
 ## Lauf 21 -- 07. Mai 2026 (Donnerstag)
 
 ### Was gut lief
